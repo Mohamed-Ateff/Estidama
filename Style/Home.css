@@ -1,0 +1,91 @@
+/* Picture and text */
+.message{
+display: flex;
+justify-content: space-between;
+}
+
+.tree-man {
+    width: 400px;
+    position: relative;
+    top: 50px;
+    margin-right: 0px;
+    z-index: 1;
+  }
+.text-pic{
+    padding-top: 200px;
+}
+.text-small{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text-small p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37.5px;
+}
+
+.text-small h2{
+    color: #166DAD;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.color-orange{
+    width: 21.76px;
+    height: 75.1px;
+    background-color: #C6822A;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+/* Picture and text ends */
+
+/* P under message  */
+.p-under-message h2{
+    padding-top: 40px;
+    color: #C6822A;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56.22px;
+}
+.p-under-message h2:nth-child(1) {
+padding-top: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.small-faded {
+    opacity: 0.5;  /* Initial faded look */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+  
+  .show-full .small-faded {
+    opacity: 1; /* Fully visible */
+  }
+  
+#toggle-button {
+    background-color: #C6822A;
+    color: white;
+    border: none;
+    width: 360px;
+    height: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Cairo;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+}
+  
+#toggle-button:focus {
+    outline: none;
+}
+
+/* P under message ends */
+
