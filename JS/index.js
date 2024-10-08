@@ -20,3 +20,23 @@ const navSlide = () => {
 };
 
 navSlide();
+
+function toggleText() {
+  // Select the hidden text and the button
+  const moreText = document.querySelector(".small-faded .more-text");
+  const button = document.getElementById("toggle-button");
+  const paragraph = document.querySelector(".small-faded");
+
+  // Check if the hidden text is currently visible or not
+  if (moreText.classList.contains("hidden")) {
+    // Show the hidden text
+    moreText.classList.remove("hidden");
+    paragraph.classList.remove("small-faded"); // Remove faded effect
+    button.innerHTML = "إخفاء النص ▲"; // Change button text to "Hide"
+  } else {
+    // Hide the text
+    moreText.classList.add("hidden");
+    paragraph.classList.add("small-faded"); // Add faded effect back
+    button.innerHTML = "إستمر في القراءة ▼"; // Change button text back to "Read More"
+  }
+}
