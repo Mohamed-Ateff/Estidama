@@ -256,6 +256,56 @@ padding-top: 100px;
     left: 387px; 
   }
   
-
-
 /* Five Cards ends*/
+
+/* ركائز الاستدامة */
+.container-white{
+    background-color:#FFFFFF;
+    margin-top: 100px;
+    /* height: 500px; */
+    padding: 100px 100px 100px 0px;
+}
+.two-col{
+    display: flex;
+    justify-content: space-around;
+    gap:150px
+}
+.item-col{
+    height: 150px
+}
+.item-col p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+}
+.item-col h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100px;
+    color: #3A73A8;
+}
+.picWithText{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 380px;
+    flex-grow: 1;
+}
+.picWithText p{
+   /* margin-left: 100px; */
+   width: 250px;
+}
+.img-col{
+    background-color: #3A73A8;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-col img{
+    height: 45px;
+    width: 45px;
+}
+
+/* ركائز الاستدامة ends */
