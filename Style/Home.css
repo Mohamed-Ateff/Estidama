@@ -263,7 +263,7 @@ padding-top: 100px;
     background-color:#FFFFFF;
     margin-top: 100px;
     /* height: 500px; */
-    padding: 100px 100px 100px 0px;
+    padding: 100px 0px 100px 0px;
 }
 .two-col{
     display: flex;
