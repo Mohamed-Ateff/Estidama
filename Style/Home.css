@@ -173,3 +173,89 @@ padding-top: 100px;
   }
  
 /* two-cards ends */
+
+/* Five Cards */
+.strategy-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+   
+    gap: 10px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 40%;
+  }
+  
+  .center-column {
+    background-color: #005491;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+  }
+  
+  .content-block {
+    position: relative;
+    background-color: #fff;
+    padding: 15px 30px; /* Padding around the text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 115px;
+    width: 100%;
+  }
+  
+  .card-text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0;
+    color: #005491;
+    padding: 25px 0px 0px 90px;
+  }
+  #padding-right-text{
+    padding: 25px 90px 0px 0px;
+}
+  .icon-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 115px;
+    background-color: #D9A867; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .icon-container img {
+    width: 50px;
+    height: 50px;
+  }
+  
+ 
+  .left-icon {
+    right: 387px; 
+  }
+  
+  
+  .right-icon {
+    left: 387px; 
+  }
+  
+
+
+/* Five Cards ends*/
