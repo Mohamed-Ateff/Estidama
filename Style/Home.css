@@ -309,3 +309,69 @@ padding-top: 100px;
 }
 
 /* ركائز الاستدامة ends */
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  .text-block {
+    margin-top: 20px;
+  }
+  
+  .title-with-arrow {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .nine-cards {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .one-card {
+    width: 32%;
+    height: 153.75px;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    border-top-width: 8px;
+    border-top-style: solid;
+  }
+  
+  .logo-div {
+    width: 115px;
+    height: 94.3px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+  }
+  .logo-div span {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 93.7px;
+  }
+  
+  .one-card p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 30px;
+    vertical-align: center;
+    line-height: 40px;
+  }
+  
