@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #ebeff8;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  padding-top: 260px;
+  margin-top: -170px !important; /* Negative margin to prevent extra space being added */
+}
+
+body[lang="en"] {
+  .delete-for-english {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  table th {
+    font-size: 12px !important;
+  }
+  table td {
+    font-size: 10px !important;
+  }
+}
+
+/* tow-titles */
+
+.tow-titles h1 {
+  color: #3a73a8;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.tow-titles h3 {
+  color: #c6822a;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .tow-titles h1 {
+    color: #3a73a8;
+    font-size: 35px;
+    font-weight: 700;
+  }
+}
+
+/* tow-titles Ends */
+
+/* Title */
+
+.title1 {
+  font-weight: 700 !important;
+  margin: 30px auto;
+  font-size: 30px;
+  text-align: justify !important;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    width: 90%;
+    font-weight: 100 !important;
+    margin: 30px auto !important;
+    font-size: 28px;
+    text-align: justify;
+  }
+}
+
+/* Title Ends */
+
+/* Some P under each other */
+
+.Some-p-under-each-other {
+  margin-top: 50px;
+}
+
+.Some-p-under-each-other p {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin: 30px 0 0 0;
+  color: #333333;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: justify !important;
+}
+.Some-p-under-each-other h2 {
+  color: #6b95bd;
+}
+
+/* Some P under each other Ends */
+
+/* Title with arrow  */
+
+.flex-row {
+  position: relative;
+  height: fit-content;
+  max-width: 100%;
+  margin: 30px 0 0 0px;
+  padding-right: 40px;
+}
+.title-with-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #6b95bd;
+  font-size: 28px;
+  font-weight: 700;
+}
+.intersect {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+  background: url(../images/Icons/arrow-for-title.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .title-with-arrow {
+    font-size: 22px;
+  }
+}
+
+body[lang="en"] {
+  .flex-row {
+    padding-right: 0px;
+    padding-left: 40px;
+  }
+  .intersect {
+    top: 30%;
+    left: 0%;
+    transform: translateY(-30%);
+    -webkit-transform: scaleX(-1); /* to reverse arrow */
+    transform: scaleX(-1);
+  }
+}
+
+/* Title with arrow Ends */
+
+/* Mobile Screen Adjustments*/
+
+@media (max-width: 480px) {
+  .padding-top-mobile {
+    padding-top: 100px;
+  }
+}
+/* Mobile Screen Adjustments Ends*/
