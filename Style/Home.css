@@ -89,3 +89,87 @@ padding-top: 100px;
 
 /* P under message ends */
 
+/* two-cards */
+.two-cards{
+    display: flex;
+    grid-template-columns: space-between;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 50px;
+}
+.content-first{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 150px;    /* 3lshan el height yb2a thabt */
+    padding-left:20px;
+    padding-right: 50px;
+}
+.first-card, .second-card {
+    width: 100%;
+    background-color: #FFFFFF80;
+  }
+.first-card,.second-card{
+    padding: 30px 50px 30px 40px;
+    
+}
+
+.first-card p,.second-card p{
+    position: relative;
+    padding: 0px 0px 60px 100px
+}
+/* .second-card .content-first:last-of-type p{
+    padding-left: 120px;
+} */
+
+
+.first-card p:before {
+    content: "";
+    width: 18.99px; /* Adjust the size of the circle */
+    height: 18.99px;
+    background-color: #D9A867; /* Orange color */
+    border-radius: 50%;
+    position: absolute;
+    right: -40px; /* Adjust the position as needed */
+    top: 18%;
+    transform: translateY(-50%);
+}
+.second-card p:before {
+    content: "";
+    width: 18.99px; /* Adjust the size of the circle */
+    height: 18.99px;
+    background-color: #D9A867; /* Orange color */
+    border-radius: 50%;
+    position: absolute;
+    right: -40px; /* Adjust the position as needed */
+    top: 22%;
+    transform: translateY(-50%);
+}
+
+.second-card .content-first:nth-child(1) p { 
+  padding-top: 15px;
+  }
+  .second-card .content-first:nth-child(4) p {
+    padding-top: 18px;
+  }
+  .second-card .content-first:nth-child(3) p {
+    padding-top: 15px;
+  }
+  .first-card .content-first:nth-child(5) p {
+  
+    padding-top: 10px;
+  }
+  .second-card .content-first:nth-child(5) p {
+  
+    padding-top: 15px;
+  }
+  .first-card .content-first:nth-child(6) p {
+    padding-top: 20px;
+  }
+  .second-card .content-first:nth-child(6) p {
+    padding-top: 25px;
+  }
+ 
+/* two-cards ends */
