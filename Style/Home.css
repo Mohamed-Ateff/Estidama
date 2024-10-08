@@ -89,3 +89,289 @@ padding-top: 100px;
 
 /* P under message ends */
 
+/* two-cards */
+.two-cards{
+    display: flex;
+    grid-template-columns: space-between;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 50px;
+}
+.content-first{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 150px;    /* 3lshan el height yb2a thabt */
+    padding-left:20px;
+    padding-right: 50px;
+}
+.first-card, .second-card {
+    width: 100%;
+    background-color: #FFFFFF80;
+  }
+.first-card,.second-card{
+    padding: 30px 50px 30px 40px;
+    
+}
+
+.first-card p,.second-card p{
+    position: relative;
+    padding: 0px 0px 60px 100px
+}
+/* .second-card .content-first:last-of-type p{
+    padding-left: 120px;
+} */
+
+
+.first-card p:before {
+    content: "";
+    width: 18.99px; /* Adjust the size of the circle */
+    height: 18.99px;
+    background-color: #D9A867; /* Orange color */
+    border-radius: 50%;
+    position: absolute;
+    right: -40px; /* Adjust the position as needed */
+    top: 18%;
+    transform: translateY(-50%);
+}
+.second-card p:before {
+    content: "";
+    width: 18.99px; /* Adjust the size of the circle */
+    height: 18.99px;
+    background-color: #D9A867; /* Orange color */
+    border-radius: 50%;
+    position: absolute;
+    right: -40px; /* Adjust the position as needed */
+    top: 22%;
+    transform: translateY(-50%);
+}
+
+.second-card .content-first:nth-child(1) p { 
+  padding-top: 15px;
+  }
+  .second-card .content-first:nth-child(4) p {
+    padding-top: 18px;
+  }
+  .second-card .content-first:nth-child(3) p {
+    padding-top: 15px;
+  }
+  .first-card .content-first:nth-child(5) p {
+  
+    padding-top: 10px;
+  }
+  .second-card .content-first:nth-child(5) p {
+  
+    padding-top: 15px;
+  }
+  .first-card .content-first:nth-child(6) p {
+    padding-top: 20px;
+  }
+  .second-card .content-first:nth-child(6) p {
+    padding-top: 25px;
+  }
+ 
+/* two-cards ends */
+
+/* Five Cards */
+.strategy-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+   
+    gap: 10px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 40%;
+  }
+  
+  .center-column {
+    background-color: #005491;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+  }
+  
+  .content-block {
+    position: relative;
+    background-color: #fff;
+    padding: 15px 30px; /* Padding around the text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 115px;
+    width: 100%;
+  }
+  
+  .card-text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0;
+    color: #005491;
+    padding: 25px 0px 0px 90px;
+  }
+  #padding-right-text{
+    padding: 25px 90px 0px 0px;
+}
+  .icon-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 115px;
+    background-color: #D9A867; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .icon-container img {
+    width: 50px;
+    height: 50px;
+  }
+  
+ 
+  .left-icon {
+    right: 387px; 
+  }
+  
+  
+  .right-icon {
+    left: 387px; 
+  }
+  
+/* Five Cards ends*/
+
+/* ركائز الاستدامة */
+.container-white{
+    background-color:#FFFFFF;
+    margin-top: 100px;
+    /* height: 500px; */
+    padding: 100px 0px 100px 0px;
+}
+.two-col{
+    display: flex;
+    justify-content: space-around;
+    gap:150px
+}
+.item-col{
+    height: 150px
+}
+.item-col p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+}
+.item-col h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100px;
+    color: #3A73A8;
+}
+.picWithText{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 380px;
+    flex-grow: 1;
+}
+.picWithText p{
+   /* margin-left: 100px; */
+   width: 250px;
+}
+.img-col{
+    background-color: #3A73A8;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-col img{
+    height: 45px;
+    width: 45px;
+}
+
+/* ركائز الاستدامة ends */
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  .text-block {
+    margin-top: 20px;
+  }
+  
+  .title-with-arrow {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .nine-cards {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .one-card {
+    width: 32%;
+    height: 153.75px;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    border-top-width: 8px;
+    border-top-style: solid;
+  }
+  
+  .logo-div {
+    width: 115px;
+    height: 94.3px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+  }
+  .logo-div span {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 93.7px;
+  }
+  
+  .one-card p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 30px;
+    vertical-align: center;
+    line-height: 40px;
+  }
+  
