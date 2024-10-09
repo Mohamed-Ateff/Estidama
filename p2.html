@@ -179,14 +179,14 @@
       <section>
         <div class="container">
           <div class="seven-cards">
-            <div class="row">
+            <div class="card-row">
               <div class="gray-hexagon gray1"></div>
               <div class="gray-hexagon2 gray2"></div>
               <div class="card7 hexagon" style="background-color: #c6822a">
                 <h2>01</h2>
                 <p>تحسين بيئة العمل الداخلية</p>
               </div>
-              <div class="col">
+              <div class="card-col">
                 <div class="card7 hexagon" style="background-color: #062e4a">
                   <h2>02</h2>
                   <p>تمكين الموارد البشرية</p>
@@ -202,7 +202,7 @@
                 <p>تحسين جودة الخدمات المقدمة للعملاء</p>
               </div>
 
-              <div class="col">
+              <div class="card-col">
                 <div class="card7 hexagon" style="background-color: #005491">
                   <h2>05</h2>
                   <p>تعزيز ثقة المساهمين</p>
@@ -259,258 +259,588 @@
           </div>
 
           <div class="employee-container">
-          <table class="employee">
-            <thead>
-              <tr>
-                <th rowspan="2">الفئة / الإدارة</th>
-                <th colspan="3">حسب الجنسية</th>
-                <th colspan="3">حسب النوع</th>
-              </tr>
-              <tr class="thin">
-                <th>سعوديون</th>
-                <th>غير سعوديون</th>
-                <th>الإجمالي</th>
-                <th>ذكور</th>
-                <th>إناث</th>
-                <th>الإجمالي</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>مكتب الرئيس التنفيذي</td>
-                <td>3</td>
-                <td>1</td>
-                <td>4</td>
-                <td>3</td>
-                <td>1</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>إدارة الالتزام والحكومة والمخاطر</td>
-                <td>3</td>
-                <td>0</td>
-                <td>3</td>
-                <td>2</td>
-                <td>1</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>الإدارة القانونية</td>
-                <td>7</td>
-                <td>0</td>
-                <td>7</td>
-                <td>6</td>
-                <td>1</td>
-                <td>7</td>
-              </tr>
-              <tr>
-                <td>إدارة المراجعة الداخلية</td>
-                <td>2</td>
-                <td>0</td>
-                <td>2</td>
-                <td>2</td>
-                <td>0</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>إدارة الاستراتيجية وتطوير الأعمال</td>
-                <td>7</td>
-                <td>3</td>
-                <td>10</td>
-                <td>4</td>
-                <td>6</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>إدارة الخدمات المشتركة</td>
-                <td>0</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>0</td>
-                <td>1</td>
-              </tr>
-              <tr>
-                <td>إدارة المبيعات والعمليات</td>
-                <td>23</td>
-                <td>14</td>
-                <td>37</td>
-                <td>20</td>
-                <td>17</td>
-                <td>37</td>
-              </tr>
-              <tr>
-                <td>إدارة الموارد البشرية</td>
-                <td>17</td>
-                <td>1</td>
-                <td>18</td>
-                <td>10</td>
-                <td>8</td>
-                <td>18</td>
-              </tr>
-              <tr>
-                <td>إدارة القوى العاملة</td>
-                <td>37</td>
-                <td>34</td>
-                <td>71</td>
-                <td>63</td>
-                <td>8</td>
-                <td>71</td>
-              </tr>
-              <tr>
-                <td>إدارة الشؤون المالية</td>
-                <td>12</td>
-                <td>5</td>
-                <td>17</td>
-                <td>11</td>
-                <td>6</td>
-                <td>17</td>
-              </tr>
-              <tr>
-                <td>إدارة التسويق</td>
-                <td>30</td>
-                <td>0</td>
-                <td>30</td>
-                <td>2</td>
-                <td>28</td>
-                <td>30</td>
-              </tr>
-              <tr>
-                <td>إدارة تقنية المعلومات</td>
-                <td>7</td>
-                <td>21</td>
-                <td>28</td>
-                <td>24</td>
-                <td>4</td>
-                <td>28</td>
-              </tr>
-              <tr>
-                <td>الإدارة العامة لقطاع الأعمال</td>
-                <td>57</td>
-                <td>50</td>
-                <td>107</td>
-                <td>87</td>
-                <td>20</td>
-                <td>107</td>
-              </tr>
-              <tr>
-                <td>الإدارة العامة لقطاع الأفراد</td>
-                <td>111</td>
-                <td>10</td>
-                <td>121</td>
-                <td>76</td>
-                <td>45</td>
-                <td>121</td>
-              </tr>
-              <tr>
-                <td>الإدارة العامة للخدمات الإدارية</td>
-                <td>27</td>
-                <td>32</td>
-                <td>59</td>
-                <td>57</td>
-                <td>2</td>
-                <td>59</td>
-              </tr>
-              <tr>
-                <td>أخرى</td>
-                <td>0</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>0</td>
-                <td>1</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr class="footer-totals">
-                <td style="text-align: center;">الإجمالي</td>
-                <td>343</td>
-                <td>173</td>
-                <td>516</td>
-                <td>369</td>
-                <td>147</td>
-                <td>516</td>
-              </tr>
-              <tr class="footer-percent">
-                <td style="text-align: center;">النسبة من الإجمالي</td>
-                <td>%66.5</td>
-                <td>%33.5</td>
-                <td>%100</td>
-                <td>%71.5</td>
-                <td>%28.5</td>
-                <td>%100</td>
-              </tr>
-            </tfoot>
-          </table>
+            <table class="employee">
+              <thead>
+                <tr>
+                  <th rowspan="2">الفئة / الإدارة</th>
+                  <th colspan="3">حسب الجنسية</th>
+                  <th colspan="3">حسب النوع</th>
+                </tr>
+                <tr class="thin">
+                  <th>سعوديون</th>
+                  <th>غير سعوديون</th>
+                  <th>الإجمالي</th>
+                  <th>ذكور</th>
+                  <th>إناث</th>
+                  <th>الإجمالي</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>مكتب الرئيس التنفيذي</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>إدارة الالتزام والحكومة والمخاطر</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>3</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>الإدارة القانونية</td>
+                  <td>7</td>
+                  <td>0</td>
+                  <td>7</td>
+                  <td>6</td>
+                  <td>1</td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <td>إدارة المراجعة الداخلية</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>إدارة الاستراتيجية وتطوير الأعمال</td>
+                  <td>7</td>
+                  <td>3</td>
+                  <td>10</td>
+                  <td>4</td>
+                  <td>6</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>إدارة الخدمات المشتركة</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>إدارة المبيعات والعمليات</td>
+                  <td>23</td>
+                  <td>14</td>
+                  <td>37</td>
+                  <td>20</td>
+                  <td>17</td>
+                  <td>37</td>
+                </tr>
+                <tr>
+                  <td>إدارة الموارد البشرية</td>
+                  <td>17</td>
+                  <td>1</td>
+                  <td>18</td>
+                  <td>10</td>
+                  <td>8</td>
+                  <td>18</td>
+                </tr>
+                <tr>
+                  <td>إدارة القوى العاملة</td>
+                  <td>37</td>
+                  <td>34</td>
+                  <td>71</td>
+                  <td>63</td>
+                  <td>8</td>
+                  <td>71</td>
+                </tr>
+                <tr>
+                  <td>إدارة الشؤون المالية</td>
+                  <td>12</td>
+                  <td>5</td>
+                  <td>17</td>
+                  <td>11</td>
+                  <td>6</td>
+                  <td>17</td>
+                </tr>
+                <tr>
+                  <td>إدارة التسويق</td>
+                  <td>30</td>
+                  <td>0</td>
+                  <td>30</td>
+                  <td>2</td>
+                  <td>28</td>
+                  <td>30</td>
+                </tr>
+                <tr>
+                  <td>إدارة تقنية المعلومات</td>
+                  <td>7</td>
+                  <td>21</td>
+                  <td>28</td>
+                  <td>24</td>
+                  <td>4</td>
+                  <td>28</td>
+                </tr>
+                <tr>
+                  <td>الإدارة العامة لقطاع الأعمال</td>
+                  <td>57</td>
+                  <td>50</td>
+                  <td>107</td>
+                  <td>87</td>
+                  <td>20</td>
+                  <td>107</td>
+                </tr>
+                <tr>
+                  <td>الإدارة العامة لقطاع الأفراد</td>
+                  <td>111</td>
+                  <td>10</td>
+                  <td>121</td>
+                  <td>76</td>
+                  <td>45</td>
+                  <td>121</td>
+                </tr>
+                <tr>
+                  <td>الإدارة العامة للخدمات الإدارية</td>
+                  <td>27</td>
+                  <td>32</td>
+                  <td>59</td>
+                  <td>57</td>
+                  <td>2</td>
+                  <td>59</td>
+                </tr>
+                <tr>
+                  <td>أخرى</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr class="footer-totals">
+                  <td style="text-align: center">الإجمالي</td>
+                  <td>343</td>
+                  <td>173</td>
+                  <td>516</td>
+                  <td>369</td>
+                  <td>147</td>
+                  <td>516</td>
+                </tr>
+                <tr class="footer-percent">
+                  <td style="text-align: center">النسبة من الإجمالي</td>
+                  <td>%66.5</td>
+                  <td>%33.5</td>
+                  <td>%100</td>
+                  <td>%71.5</td>
+                  <td>%28.5</td>
+                  <td>%100</td>
+                </tr>
+              </tfoot>
+            </table>
           </div>
         </div>
       </section>
 
       <section>
-         <div class="container">
-
-    <h2 class="chart-title">نسبة السعوديين من إجمالي موظفي الشركة في آخر أربع سنوات</h2>
-    <div class="chart-container">
-          <div class="chart-item">
-        <canvas id="chart2020"></canvas>
-        <div class="chart-label">عام 2020</div>
-      </div>
-        <div class="chart-item">
-        <canvas id="chart2021"></canvas>
-        <div class="chart-label">عام 2021</div>
-      </div>
-          <div class="chart-item">
-        <canvas id="chart2022"></canvas>
-        <div class="chart-label">عام 2022</div>
-      </div>
-      <div class="chart-item">
-        <canvas id="chart2023"></canvas>
-        <div class="chart-label">عام 2023</div>
-      </div>
-  
-    
-  
-    </div>
-
-    <!-- الذكور مقابل الإناث -->
-    <h2 class="chart-title">نسبة الموظفين الذكور والإناث من إجمالي موظفي الشركة في آخر أربع سنوات</h2>
-    <div class="chart-container">
-        <div class="chart-item">
-        <canvas id="genderChart2020"></canvas>
-        <div class="chart-label">عام 2020</div>
-      </div>
-         <div class="chart-item">
-        <canvas id="genderChart2021"></canvas>
-        <div class="chart-label">عام 2021</div>
-      </div>
+        <div class="container">
+          <h2 class="chart-title">
+            نسبة السعوديين من إجمالي موظفي الشركة في آخر أربع سنوات
+          </h2>
+          <div class="chart-container">
             <div class="chart-item">
-        <canvas id="genderChart2022"></canvas>
-        <div class="chart-label">عام 2022</div>
-      </div>
-   
-      <div class="chart-item">
-        <canvas id="genderChart2023"></canvas>
-        <div class="chart-label">عام 2023</div>
-      </div>
+              <canvas id="chart2020"></canvas>
+              <div class="chart-label">عام 2020</div>
+            </div>
+            <div class="chart-item">
+              <canvas id="chart2021"></canvas>
+              <div class="chart-label">عام 2021</div>
+            </div>
+            <div class="chart-item">
+              <canvas id="chart2022"></canvas>
+              <div class="chart-label">عام 2022</div>
+            </div>
+            <div class="chart-item">
+              <canvas id="chart2023"></canvas>
+              <div class="chart-label">عام 2023</div>
+            </div>
+            <div class="employee-color">
+              <div>
+                <div
+                  style="width: 20px; height: 20px; background-color: #062e4a"
+                ></div>
+                <p>سعوديون</p>
+              </div>
+              <div>
+                <div
+                  style="width: 20px; height: 20px; background-color: #005491"
+                ></div>
+                <p>غير سعوديون</p>
+              </div>
+            </div>
+          </div>
 
-    
-    </div>
+          <!-- الذكور مقابل الإناث -->
+          <h2 class="chart-title">
+            نسبة الموظفين الذكور والإناث من إجمالي موظفي الشركة في آخر أربع
+            سنوات
+          </h2>
+          <div class="chart-container">
+            <div class="chart-item">
+              <canvas id="genderChart2020"></canvas>
+              <div class="chart-label">عام 2020</div>
+            </div>
+            <div class="chart-item">
+              <canvas id="genderChart2021"></canvas>
+              <div class="chart-label">عام 2021</div>
+            </div>
+            <div class="chart-item">
+              <canvas id="genderChart2022"></canvas>
+              <div class="chart-label">عام 2022</div>
+            </div>
 
-    <!-- Summary under charts -->
-    <div class="summary-container">
-      <p>نسبة السعوديون , غير السعوديون</p>
-      <p>نسبة الذكور , الإناث</p>
-    </div>
-  </div>
-      </section>
-      <!-- Some P under each other -->
-      <div class="container">
-        <div class="Some-p-under-each-other">
-          <p data-aos="fade-up" data-aos-duration="2000" data-en=""></p>
+            <div class="chart-item">
+              <canvas id="genderChart2023"></canvas>
+              <div class="chart-label">عام 2023</div>
+            </div>
+            <div class="employee-color">
+              <div>
+                <div
+                  style="width: 20px; height: 20px; background-color: #005491"
+                ></div>
+                <p>الذكور</p>
+              </div>
+              <div>
+                <div
+                  style="width: 20px; height: 20px; background-color: #c6822a"
+                ></div>
+                <p>الإناث</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <!-- Some P under each other Ends -->
+      <section>
+        <div class="container">
+          <h2 class="nationality-title">
+            جنسيات القوى العاملة في "مهارة" لعام 2023
+          </h2>
+          <div class="nationality">
+            <div class="nationality-card">
+              <p>سعودي</p>
+              <div class="nationality-content">
+                <div class="employee-count">343</div>
+                <div class="percentage">66.5%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>مصري</p>
+              <div class="nationality-content">
+                <div class="employee-count">50</div>
+                <div class="percentage">9.7%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>هندي</p>
+              <div class="nationality-content">
+                <div class="employee-count">37</div>
+                <div class="percentage">7.2%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>سوداني</p>
+              <div class="nationality-content">
+                <div class="employee-count">17</div>
+                <div class="percentage">3.3%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>باكستاني</p>
+              <div class="nationality-content">
+                <div class="employee-count">17</div>
+                <div class="percentage">3.3%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>يمني</p>
+              <div class="nationality-content">
+                <div class="employee-count">18</div>
+                <div class="percentage">3.5%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>نيبالي</p>
+              <div class="nationality-content">
+                <div class="employee-count">7</div>
+                <div class="percentage">1.4%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>قبائل نازحة</p>
+              <div class="nationality-content">
+                <div class="employee-count">8</div>
+                <div class="percentage">1.6%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>بنجلاديشي</p>
+              <div class="nationality-content">
+                <div class="employee-count">3</div>
+                <div class="percentage">0.6%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>فلبيني</p>
+              <div class="nationality-content">
+                <div class="employee-count">5</div>
+                <div class="percentage">1%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>أردني</p>
+              <div class="nationality-content">
+                <div class="employee-count">5</div>
+                <div class="percentage">1%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>فلسطيني</p>
+              <div class="nationality-content">
+                <div class="employee-count">1</div>
+                <div class="percentage">0.05%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>كيني</p>
+              <div class="nationality-content">
+                <div class="employee-count">1</div>
+                <div class="percentage">0.05%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>سوري</p>
+              <div class="nationality-content">
+                <div class="employee-count">2</div>
+                <div class="percentage">0.4%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card">
+              <p>إندونيسي</p>
+              <div class="nationality-content">
+                <div class="employee-count">2</div>
+                <div class="percentage">0.4%</div>
+              </div>
+            </div>
+
+            <div class="nationality-card total-card">
+              <p>الإجمالي</p>
+              <div class="nationality-content">
+                <div class="employee-count">516</div>
+                <div class="percentage">100%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="employee-color">
+            <div>
+              <div
+                style="width: 20px; height: 20px; background-color: #d9a867"
+              ></div>
+              <p>عدد الموظفين</p>
+            </div>
+            <div>
+              <div
+                style="width: 20px; height: 20px; background-color: #005491"
+              ></div>
+              <p>النسبة من الإجمالي</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div
+            class="flex-row aos-init aos-animate"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <span
+              class="title-with-arrow"
+              data-en="Important Structural and Organizational Changes in 2023G"
+              data-aos="null"
+              data-aos-duration="null"
+              >التدريب والتطوير في «مهارة» لعام 2023م</span
+            >
+            <div class="intersect"></div>
+          </div>
+
+          <table class="trainees">
+            <thead>
+              <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">المتدربون المشاركون</th>
+                <th rowspan="2">إجمالي القوة العاملة</th>
+                <th rowspan="2">إجمالي ساعات التدريب</th>
+              </tr>
+              <tr>
+                <th>ذكور</th>
+                <th>إناث</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>شركة مهارة للموارد البشرية</td>
+                <td>168</td>
+                <td>132</td>
+                <td>300</td>
+                <td>9,551</td>
+              </tr>
+              <tr class="footer-total">
+                <td>الإجمالي</td>
+                <td>168</td>
+                <td>132</td>
+                <td>300</td>
+                <td>9,551</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div
+            class="flex-row aos-init aos-animate"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <span
+              class="title-with-arrow"
+              data-en="Important Structural and Organizational Changes in 2023G"
+              data-aos="null"
+              data-aos-duration="null"
+              >إنجازات الموارد البشرية في «مهارة» لعام 2023م</span
+            >
+            <div class="intersect"></div>
+          </div>
+
+          <div class="hr-cards">
+            <div class="hr-card">
+              <h3>48</h3>
+              <p>دورة تدريبية</p>
+            </div>
+            <div class="hr-card">
+              <h3>10,000</h3>
+              <p>ساعة تدريب</p>
+            </div>
+            <div class="hr-card">
+              <h3>%50</h3>
+              <p>من الموظفين شاركوا في التدريب</p>
+            </div>
+          </div>
+
+          <div class="hr-achievement">
+            <div>
+              <div>
+                <h3>15</h3>
+                <p>دورة تدريبية داخلية</p>
+              </div>
+              <div>
+                <h3>84</h3>
+                <p>عملية تعيين من خارج الشركة</p>
+              </div>
+              <div>
+                <h3>12</h3>
+                <p>عملية تعيين من داخل الشركة</p>
+              </div>
+              <div>
+                <h3>8.7%</h3>
+                <p>
+                  معدل دوران الموظفين
+                  <span> والذي انخفض بسبب ارتفاع </span>
+                  <span> مستوى الرضا الوظيفي</span>
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src="images/Page 2 Artwork.png" alt="Artwork" />
+            </div>
+            <div>
+              <div>
+                <h3>21</h3>
+                <p>دورة تدريبية داخلية</p>
+              </div>
+              <div>
+                <h3>4</h3>
+                <p>ورش عمل داخلية</p>
+              </div>
+              <div>
+                <h3>33</h3>
+                <p>موظفاً استفادوا من سياسات الأبوة والأمومة</p>
+              </div>
+              <div>
+                <h3>44</h3>
+                <p>متوسط ساعات التدريب في العام لكل موظف</p>
+              </div>
+            </div>
+          </div>
+          <p class="hr-footer">
+            إجراء استطلاع لقياس ارتباط الموظفين بالشركة علاوة على استبيانات
+            دورية لرضا الموظفين
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div
+            class="tow-titles aos-init aos-animate"
+            data-aos="fade"
+            data-aos-duration="2000"
+          >
+            <h1
+              data-en="Introduction"
+              data-aos="fade"
+              data-aos-duration="2000"
+              class="aos-init aos-animate"
+            >
+              رعـايــة الموظفين
+            </h1>
+          </div>
+
+          <div
+            class="Some-p-under-each-other aos-init aos-animate"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <p data-en="" class="" data-aos="null" data-aos-duration="null">
+              من أهم الواجبات التي نلتزم بها في «مهارة» تجاه موظفينا هي رعاية
+              رفاهم وراحتهم، والحرص على تطورهم الشخصي، إلى جانب توفير الوسائل
+              والسبل التي تعينهم على تحقيق إمكانياتهم، فإنجازاتنا ونجاحاتنا
+              ترتبط ارتباطاً وثيقاً بولاء موظفينا وجهودهم المتواصلة.
+            </p>
+          </div>
+
+
+
+        </div>
+      </section>
 
       <footer>
         <div class="container">
