@@ -292,7 +292,6 @@ padding-top: 100px;
     flex-grow: 1;
 }
 .picWithText p{
-   /* margin-left: 100px; */
    width: 250px;
 }
 .img-col{
@@ -309,7 +308,7 @@ padding-top: 100px;
 }
 
 /* ركائز الاستدامة ends */
-
+/* 8 cards */
 .flex-row {
     display: flex;
     align-items: center;
@@ -374,4 +373,143 @@ padding-top: 100px;
     vertical-align: center;
     line-height: 40px;
   }
-  
+  /* 8 cards ends*/
+
+  /* Three Cards */
+
+  .three-cards{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .ThreeCard{
+    background-color: #3A73A8;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 360px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 56.22px;
+  }
+  .ThreeCard img{
+    width: 92.33px;
+    height:62.5px;
+  }
+  /* Three Cards ends */
+
+  /* Six Cards */
+  .six-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  .SixCard{
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 153.75px;
+    width: 360.79px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align:right;
+    position: relative;
+  }
+  .SixCard::before{
+    content: "";
+    height: 153.75px;
+    width: 30px;
+    background-color: #3A73A8;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .SixCard:nth-child(2)::before{
+background-color:#062E4A ;
+  }
+  .SixCard:nth-child(3)::before{
+background-color:#D9A867 ;
+  }
+  .SixCard:nth-child(4)::before{
+background-color:#9C7845 ;
+  }
+  .SixCard:nth-child(5)::before{
+background-color:#B5CADD ;
+  }
+ 
+  .six-cards .SixCard:nth-child(4){
+    padding: 0px 120px 0px 60px;
+  }
+  .six-cards .SixCard:nth-child(6){
+    padding: 0px 100px 0px 60px;
+  }
+  /* Six Cards ends*/
+
+/* 7 cards with picture */
+.seven-two-col{
+  display: flex;
+  justify-content: space-between;
+  gap:50px;
+  padding-left: 100px;
+  margin-top: 90px;
+  position: relative;
+}
+.seven-two-col::before{
+  content: "";
+    height: 20px;
+    width: 1130px;
+    background-color: #062E4A;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.seven-item-col{
+  height: 100px
+}
+.seven-item-col p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33.73px;
+}
+
+.seven-picWithText{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 460px;
+  flex-grow: 1;
+}
+.seven-picWithText p{
+ width: 360px;
+}
+.seven-img-col{
+  background-color: #3A73A8;
+  height: 76.05px;
+  width: 76.05px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seven-img-col img{
+  height: 45px;
+  width: 45px;
+}
+.seven-big-img img{
+  width: 443px;
+  height: 465px;
+}
+
+
+
+/* 7 cards with picture ends*/
