@@ -292,7 +292,6 @@ padding-top: 100px;
     flex-grow: 1;
 }
 .picWithText p{
-   /* margin-left: 100px; */
    width: 250px;
 }
 .img-col{
@@ -456,3 +455,61 @@ background-color:#B5CADD ;
     padding: 0px 100px 0px 60px;
   }
   /* Six Cards ends*/
+
+/* 7 cards with picture */
+.seven-two-col{
+  display: flex;
+  justify-content: space-between;
+  gap:50px;
+  padding-left: 100px;
+  margin-top: 90px;
+  position: relative;
+}
+.seven-two-col::before{
+  content: "";
+    height: 20px;
+    width: 1130px;
+    background-color: #062E4A;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.seven-item-col{
+  height: 100px
+}
+.seven-item-col p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33.73px;
+}
+
+.seven-picWithText{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 460px;
+  flex-grow: 1;
+}
+.seven-picWithText p{
+ width: 360px;
+}
+.seven-img-col{
+  background-color: #3A73A8;
+  height: 76.05px;
+  width: 76.05px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seven-img-col img{
+  height: 45px;
+  width: 45px;
+}
+.seven-big-img img{
+  width: 443px;
+  height: 465px;
+}
+
+
+
+/* 7 cards with picture ends*/
