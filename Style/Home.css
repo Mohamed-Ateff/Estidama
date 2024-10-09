@@ -568,6 +568,93 @@ background-color:#B5CADD ;
 /* 13 texts with image ends*/
 
 /* six texts */
-
+.six-first-col .thr-item-col:nth-child(1){
+  height: 110px;
+}
+.six-second-col .thr-item-col:nth-child(1){
+  height: 110px;
+}
 
 /* six texts ends*/
+
+/* six cards */
+.Six-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+}
+.Six-cards::before{
+  content: "";
+  height: 20px;
+  width: 100%;
+  background-color: #005491;
+  position: absolute;
+  top: 0;
+  transform: translate(
+    0%,
+    390%
+  );
+}
+
+.Six-cards .card-6 {
+  background-color: white;
+  padding: 20px 50px;
+  text-align: center;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Six-cards .card-6:nth-child(2) p {
+  padding-top: 30px;
+}
+
+.Six-cards h3 {
+  font-size: 60px;
+  color: #c6822a;
+  font-weight: 700;
+  margin-bottom: 0px;
+  line-height: 40px;
+  padding-top: 30px;
+}
+
+.Six-cards p {
+  font-size: 20px;
+  color: #333333;
+  line-height: 30px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.Six-cards h2 {
+  font-size: 16px;
+  color: #333333;
+  line-height: 30px;
+  font-weight: 400;
+  padding-bottom: 0px;
+}
+
+.textOrg{
+font-size: 40px;
+font-weight: 700;
+line-height: 74.96px;
+background-color: #C6822A;
+color: #FFFFFF;
+width: 576px;
+height: 110px;
+position: absolute;
+transform: translate(
+  -55%,
+  25%
+);
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 2;
+}
+/* six cards ends*/
