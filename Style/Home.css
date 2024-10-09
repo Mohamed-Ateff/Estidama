@@ -81,6 +81,7 @@ padding-top: 100px;
     font-weight: 700;
     font-size: 20px;
     line-height: 40px;
+    translate: -110%;
 }
   
 #toggle-button:focus {
@@ -510,6 +511,63 @@ background-color:#B5CADD ;
   height: 465px;
 }
 
-
-
 /* 7 cards with picture ends*/
+
+/* 13 texts with image */
+.thr-two-col{
+  display: flex;
+  justify-content: space-between;
+  gap:50px;
+  padding-left: 100px;
+  margin-top: 90px;
+  position: relative;
+}
+.thr-circle-org{
+  background-color: #D9A867;
+  height: 18.99px;
+  width: 18.99px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  margin-top: 5px;
+}
+
+.thr-picWithText{
+  display: flex;
+  justify-content:space-between;
+  align-items: start;
+  width: 430px;
+  flex-grow: 1;
+}
+
+
+.thr-picWithText p{
+ width: 360px;
+}
+
+.thr-item-col{
+  height: 80px
+}
+.thr-second-col .thr-item-col:nth-child(1){
+  height: 140px;
+}
+
+.thr-item-col p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33.73px;
+}
+
+.thr-big-img img{
+  width: 548.67px;
+  height: 427.41px;
+  translate: 20%;
+}
+
+/* 13 texts with image ends*/
+
+/* six texts */
+
+
+/* six texts ends*/
