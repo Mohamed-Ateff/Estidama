@@ -40,7 +40,7 @@
 }
 
 /*7 cards*/
-.row {
+.card-row {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +72,7 @@
   font-size: 14px;
 }
 .gray-hexagon {
-    position: absolute;
+  position: absolute;
   background-color: #89898933;
   width: 100px;
   height: 90px;
@@ -80,27 +80,27 @@
 }
 
 .gray-hexagon2 {
-    position: absolute;
+  position: absolute;
   background-color: #89898933;
   width: 70px;
   height: 60px;
   clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
 }
-.gray1{
-    top: -29px;
-    right: 221px;
+.gray1 {
+  top: -29px;
+  right: 221px;
 }
-.gray2{
-   top: -40px;
-    right: 147px;
+.gray2 {
+  top: -40px;
+  right: 147px;
 }
-.gray3{
-   top: -10px;
-    left: 250px;
+.gray3 {
+  top: -10px;
+  left: 250px;
 }
-.gray4{
-    top: 278px;
-    left: 280px;
+.gray4 {
+  top: 278px;
+  left: 280px;
 }
 
 /*employee*/
@@ -184,7 +184,7 @@
 .chart-title {
   color: #005491;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 50px 0 20px 0;
   font-size: 24px;
 }
 
@@ -192,6 +192,157 @@
   margin-top: 20px;
 }
 
+/*nationality*/
+.nationality {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nationality-title {
+  color: #005491;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.nationality-card {
+  background-color: #fff;
+  margin: 2px;
+  width: 23%;
+  padding: 20px;
+  text-align: center;
+  color: #062e4a;
+}
+.nationality-card p{
+    font-weight: 700;
+    font-size: 20px;
+}
+.nationality-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.percentage {
+  background-color: #005491;
+  color: #fff;
+  padding: 5px 30px;
+  font-size: 18px;
+}
+
+.employee-count {
+  background-color: #d9a867;
+  color: #062e4a;
+  padding: 5px 40px;
+  font-size: 18px;
+}
+
+.total-card {
+  background-color: #062e4a;
+  color: white;
+  font-weight: bold;
+}
+.employee-color{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+    margin-top: 50px;
+}
+.employee-color > div{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+
+/*trinees*/
+
+
+
+.trainees {
+     width: 100%;
+  border-collapse: collapse;
+  margin: 40px 0 100px 0;
+  background-color: white;
+}
+
+.trainees th, .trainees td {
+
+      padding: 8px 12px;
+  text-align: center;
+  font-weight: 700;
+  border: 1px solid #b5cadd;
+}
+
+.trainees th {
+    background-color: #062E4A;
+    color: #fff;
+}
+.trainees td:first-child {
+  width: 20%;
+}
+.footer-total{
+  background-color: #EFDABE;
+  text-align: center;
+}
+.hr-cards {
+    display: flex;
+    justify-content: space-around;
+      margin: 40px 0 100px 0;
+}
+
+.hr-card {
+    background-color: #ffff;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.hr-card h3 {
+      color: #C6822A;
+    margin: 0;
+    font-size: 36px;
+}
+
+.hr-card p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hr-achievement{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hr-achievement h3{
+  color: #005491;
+  font-size: 40px;
+}
+.hr-achievement p{
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.hr-achievement p span{
+  display: block;
+}
+.hr-achievement img{
+  width: 600px;
+}
+ .hr-footer{
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+/*employee-care*/
+
+
+@media (max-width: 1200px) {
+  .nationality-card {
+    width: 30%;
+  }
+}
 @media (max-width: 768px) {
   .three-cards {
     display: flex;
@@ -207,23 +358,53 @@
     margin: 10px 0;
   }
 
-  .row {
+  .card-row {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .col {
+  .card-col {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-  .gray-hexagon, .gray-hexagon2 {
+  .gray-hexagon,
+  .gray-hexagon2 {
+    display: none;
+  }
+    .nationality-card {
+    width: 45%;
+  }
+
+  .hr-cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hr-card{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .hr-achievement{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hr-achievement div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hr-achievement img{
     display: none;
   }
 }
+
 @media (max-width: 480px) {
   /*employee*/
   .employee-container {
@@ -235,5 +416,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+    .nationality-card {
+    width: 90%;
   }
 }

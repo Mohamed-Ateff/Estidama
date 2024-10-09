@@ -5,7 +5,7 @@ const femaleColor = '#C6822A';
 
 const saudiData = [
     { year: '2023', saudi: 66.5, nonSaudi: 33.5 },
-    { year: '2022', saudi: 93, nonSaudi: 37 },
+    { year: '2022', saudi: 63, nonSaudi: 37 },
     { year: '2021', saudi: 55, nonSaudi: 45 },
     { year: '2020', saudi: 48, nonSaudi: 52 }
 ];
