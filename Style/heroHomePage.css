@@ -1,0 +1,24 @@
+.one-title-for-hero-only {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  text-align: center;
+}
+.one-title-for-hero-only h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 57px;
+}
+.one-title-for-hero-only h2 {
+  color: #d9a867;
+  font-weight: 500;
+  font-size: 34px;
+  margin-top: -10px;
+}
+.one-title-for-hero-only h3 {
+  color: #898989;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 50px;
+}
