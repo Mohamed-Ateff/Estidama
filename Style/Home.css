@@ -43,28 +43,51 @@ justify-content: space-between;
 
 /* P under message  */
 .p-under-message h2{
-    padding-top: 40px;
+    padding-top: 0px;
     color: #C6822A;
     font-weight: 700;
     font-size: 30px;
     line-height: 56.22px;
 }
-.p-under-message h2:nth-child(1) {
-padding-top: 100px;
+.p-under-message h4{
+    padding-top: 40px;
+    color: #C6822A;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
 }
+.p-under-message h2:nth-child(1) {
+padding-top: 80px;
+}
+#padding-ttext{
+  padding-top: 40px;
+}
+
 
 .hidden {
     display: none;
 }
 
-.small-faded {
-    opacity: 0.5;  /* Initial faded look */
-    transition: opacity 0.3s ease; /* Smooth transition */
-  }
-  
-  .show-full .small-faded {
-    opacity: 1; /* Fully visible */
-  }
+/* Initial faded style */
+.this-to-faded {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+/* Hidden text */
+.hidden {
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Style when the text is visible */
+.expanded .this-to-faded {
+  opacity: 1;
+}
+
+.expanded .hidden {
+  display: inline;
+}
   
 #toggle-button {
     background-color: #C6822A;

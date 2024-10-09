@@ -22,21 +22,16 @@ const navSlide = () => {
 navSlide();
 
 function toggleText() {
-  // Select the hidden text and the button
-  const moreText = document.querySelector(".small-faded .more-text");
-  const button = document.getElementById("toggle-button");
-  const paragraph = document.querySelector(".small-faded");
+  const container = document.querySelector('.p-under-message');
+  const hiddenText = container.querySelectorAll('.hidden');
+  const fadedText = container.querySelectorAll('.this-to-faded');
+  
+  // Toggle the class on the main container
+  container.classList.toggle('expanded');
 
-  // Check if the hidden text is currently visible or not
-  if (moreText.classList.contains("hidden")) {
-    // Show the hidden text
-    moreText.classList.remove("hidden");
-    paragraph.classList.remove("small-faded"); // Remove faded effect
-    button.innerHTML = "إخفاء النص ▲"; // Change button text to "Hide"
-  } else {
-    // Hide the text
-    moreText.classList.add("hidden");
-    paragraph.classList.add("small-faded"); // Add faded effect back
-    button.innerHTML = "إستمر في القراءة ▼"; // Change button text back to "Read More"
-  }
+  // Change button text
+  const button = document.getElementById('toggle-button');
+  button.innerHTML = container.classList.contains('expanded') 
+                     ? 'إخفاء النص ▲' 
+                     : 'إستمر في القراءة ▼';
 }
