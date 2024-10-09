@@ -54,9 +54,9 @@ footer .middle-footer .icons-middle-footer {
   width: 250px;
   margin-bottom: 15px;
 }
-footer .middle-footer .icons-middle-footer a img{
+footer .middle-footer .icons-middle-footer a img {
   height: 23px;
-  margin: 0px 12px ;
+  margin: 0px 12px;
 }
 
 footer .left-footer {
@@ -66,4 +66,30 @@ footer .left-footer {
 }
 footer .left-footer img {
   width: 250px;
+}
+@media screen and (max-width: 768px) {
+  footer .container {
+    flex-direction: column;
+  }
+  footer .middle-footer {
+    justify-content: right;
+    align-items: flex-start;
+  }
+  footer .middle-footer .icons-middle-footer {
+    justify-content: right;
+    align-items: flex-start;
+  }
+
+  
+  footer .right-footer .icon-and-text-right-footer p {
+    width: 70% !important;
+  }
+  footer .container div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  footer .left-footer {
+    justify-content: right;
+    align-items: flex-start;
+  }
 }
