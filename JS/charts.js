@@ -78,3 +78,50 @@ genderData.forEach((item, index) => {
         [maleColor, femaleColor]
     );
 });
+
+
+// environment-charts
+const ctx1 = document.getElementById('chart1').getContext('2d');
+const ctx2 = document.getElementById('chart2').getContext('2d');
+
+const chart1 = new Chart(ctx1, {
+    type: 'pie',
+    data: {
+        labels: ['الجزء 1', 'الجزء 2', 'الجزء 3', 'الجزء 4'],
+        datasets: [{
+            data: [30, 25, 20, 25], 
+            backgroundColor: ['#1C639C', '#B3BEC9', '#D7A868', '#B3BEC9'],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                display: false
+            }
+        }
+    }
+});
+
+const chart2 = new Chart(ctx2, {
+    type: 'doughnut',
+    data: {
+        labels: ['الجزء 1', 'الجزء 2', 'الجزء 3', 'الجزء 4'],
+        datasets: [{
+            data: [30, 25, 20, 25],  
+            backgroundColor: ['#1C639C', '#B3BEC9', '#D7A868', '#B3BEC9'],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                display: false
+            }
+        }
+    }
+});
