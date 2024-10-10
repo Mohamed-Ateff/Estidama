@@ -311,6 +311,127 @@ text-align: center;
  /* 3 pie charts  ends*/
 
  /* 4 cards with circle */
-
+ .four-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .four-cards .card-4 {
+    background-color: white;
+    padding: 20px 50px;
+    text-align: center;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  
+  .four-cards h3 {
+    font-size: 60px;
+    color: #c6822a;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .four-cards p {
+    font-size: 20px;
+    color: #333333;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  .circle-green {
+    position: absolute;
+    width: 302.22px; 
+    height: 302.22px;
+    background-color: #16A851; 
+    border-radius: 50%;
+    top: 50%; /* Centered vertically relative to the container */
+    left: 50%;
+    transform: translate(
+      -50%,
+      -50%
+    ); /* Center the circle at the border between the second and fifth divs */
+    z-index: 1; /* Ensure it stays on top of the divs */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-content {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    z-index: 2; /* Ensures text is on top of the circle */
+  }
+  .circle-content h2 {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
  
+  
+  .four-cards div:nth-child(2) {
+    justify-content: flex-start;
+    background: radial-gradient(
+      circle at bottom left,
+      transparent,
+      transparent 180px,
+      #ffffff 30px,
+      #ffffff
+    );
+    padding-bottom: 10px;
+  }
+  .four-cards div:nth-child(3) {
+    justify-content: flex-start;
+    background: radial-gradient(
+      circle at bottom right,
+      transparent,
+      transparent 180px,
+      #ffffff 30px,
+      #ffffff
+    );
+    padding-bottom: 10px;
+  }
+  
+  .four-cards div:nth-child(4) {
+    justify-content: flex-end;
+    background: radial-gradient(
+      circle at top left,
+      transparent,
+      transparent 180px,
+      #ffffff 12px,
+      #ffffff
+    );
+    padding-bottom: 10px;
+  }
+  .four-cards div:nth-child(5) {
+    justify-content: flex-end;
+    background: radial-gradient(
+      circle at top right,
+      transparent,
+      transparent 180px,
+      #ffffff 12px,
+      #ffffff
+    );
+    padding-bottom: 10px;
+  }
+  .four-cards div:nth-child(2) h3 {
+    padding-bottom: 20px;
+  }
+  
+  .four-cards div:nth-child(5) h3 {
+    padding-bottom: 20px;
+  }
+  
+
  /* 4 cards with circle ends*/
