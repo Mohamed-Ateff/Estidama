@@ -39,7 +39,13 @@
   margin-top: 30px;
 }
 
+/*منهج الاستدامة*/
 /*7 cards*/
+#seven-cards{
+  margin: 80px 0 !important;
+  padding-top: 0;
+  background-color: #ffffff;
+}
 .card-row {
   display: flex;
   justify-content: center;
@@ -74,8 +80,8 @@
 .gray-hexagon {
   position: absolute;
   background-color: #89898933;
-  width: 100px;
-  height: 90px;
+ width: 130px;
+    height: 120px;
   clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
 }
 
@@ -87,20 +93,20 @@
   clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
 }
 .gray1 {
-  top: -29px;
-  right: 221px;
+  top: -36px;
+    right: 368px;
 }
 .gray2 {
-  top: -40px;
-  right: 147px;
+  top: -75px;
+    right: 310px;
 }
 .gray3 {
-  top: -10px;
-  left: 250px;
+  top: -35px;
+    left: 385px;
 }
 .gray4 {
-  top: 278px;
-  left: 280px;
+  top: 296px;
+    left: 437px;
 }
 
 /*employee*/
@@ -323,11 +329,15 @@
 .hr-achievement p span {
   display: block;
 }
-.hr-achievement img {
-  width: 600px;
+.img-cont{
+  width: 50%;
 }
+    .img-cont img{
+    width: 100%;
+  }
+
 .hr-footer {
-  margin-top: 50px;
+  margin: 50px 0;
   text-align: center;
 }
 
@@ -357,6 +367,7 @@
   font-weight: 700;
   text-align: center;
   line-height: 1.5;
+  z-index: 2;
 }
 .outer-circles {
   position: relative;
@@ -385,10 +396,6 @@
   text-align: center;
 }
 
-.yellow {
-  border-color: #c6822a;
-}
-
 .small-circle {
   background: linear-gradient(270deg, #ffffff 5.62%, #e3eaf2 104.25%);
   width: 40px;
@@ -400,6 +407,20 @@
   left: 50%;
   transform-origin: 0;
 }
+.yellow {
+  border-color: #c6822a;
+}
+.small-circle::after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 35px;
+  background-color: #fff;
+  position: absolute;
+  top: 73%;
+    left: -178%;
+    transform: translate(-50%, -53%) rotate(83deg);
+  }
 
 .small-circle:nth-child(8) {
   transform: rotate(-8deg) translate(120px);
@@ -506,7 +527,7 @@ h5 {
   font-size: 25px;
   font-weight: 700;
   text-align: center;
-  margin: 40px 20% 0 0;
+  margin: 40px auto 0 0;
 }
 
 .tableContribution, .tableContribution th{
@@ -665,7 +686,50 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
   color: white;
 }
 
+/*الهدف 5*/
 
+.goal5-cards{
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center;
+}
+
+.one-card2 {
+width: 49%;
+    /* height: 200px; */
+    margin: 50px 0;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+
+.logo-div2 {
+  /* width: 115px; */
+  height: 94.3px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 0 30px;
+
+}
+.logo-div2 span {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 93.7px;
+}
+
+.one-card2 p {
+  font-size: 18px;
+  color: #333;
+ 
+}
 
 @media (max-width: 1200px) {
   .nationality-card {
@@ -681,6 +745,16 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
   }
 }
 @media (max-width: 992px) {
+  .employee-care {
+    width: 86%;
+  }
+  .circle{
+    width: 80%;
+  }
+    .employee-care-footer {
+    font-size: 25px;
+    margin: 0;
+}
   .goals-cards {
     justify-content: space-between;
   }
@@ -688,6 +762,13 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
   .one-card {
     width: 48%;
   }
+    .nationality-card {
+    width: 45%;
+  }
+  .img-cont{
+    width: 80%;
+  }
+
 }
 @media (max-width: 768px) {
   .three-cards {
@@ -699,6 +780,10 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
   .card3 {
     width: 100%;
   }
+  #seven-cards{
+  
+  background-color: transparent;
+}
   .card7 {
     width: 70%;
     margin: 10px 0;
@@ -721,9 +806,7 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
   .gray-hexagon2 {
     display: none;
   }
-  .nationality-card {
-    width: 45%;
-  }
+
 
   .hr-cards {
     flex-direction: column;
@@ -755,17 +838,34 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
     height: 100%;
   }
 
-  .center-circle {
-    width: 150px;
-    height: 150px;
-    font-size: 18px;
+  .center-circle, .small-circle, .small-circle::after {
+   display: none;
   }
+  .outer-circles {
+      position: static;
 
-  .circle {
-    width: 140px;
-    height: 70px;
-    font-size: 14px;
   }
+.circle-container {
+  flex-direction: column;
+  width: 100%;
+  position: static;
+  transform: none !important; 
+}
+    .circle {
+        width: 100%;
+        height: 70px;
+        font-size: 14px;
+        margin: 25px 0;
+    }
+
+    h5{
+      height: fit-content;
+      margin: 20px 0px;
+    }
+
+    .table-title {
+      width: 72%;
+    }
 
     .tableChanges td {
     background-color: #fff;
@@ -776,6 +876,18 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
     display: block;
     border: 1px solid #b5cadd;
   }
+  /* .cont{
+    overflow-x: auto;
+  } */
+  .tableContribution th{
+    padding: 20px;
+        font-size: 10px !important;
+
+  }
+  .tableContribution td{
+        font-size: 10px !important;
+    padding: 10px;
+  }
 
    .goals-cards {
     flex-direction: column;
@@ -784,7 +896,7 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
 
   .one-card {
     width: 100%;
-    margin-bottom: 20px;
+margin: 30px 0;
   }
 
   .logo-div {
@@ -794,11 +906,13 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
   }
 
    .four-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+   flex-direction: column;
     gap: 5px;
     margin-top: 10px;
+    
+  }
+  .card-4-2{
+    width: 100%;
   }
 
   .card-content-four {
@@ -838,6 +952,22 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 16% 100%, 0 69%);
     position: relative;
     margin-top: 10px;
+  }
+  .small-triangle {
+    left: -25px;
+  }
+  .moving-number {
+    left: 45px;
+    
+  }
+
+  .goal5-cards, .one-card2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .one-card2{
+    width: 100%;
   }
 }
 
