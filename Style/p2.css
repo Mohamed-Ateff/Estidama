@@ -93,20 +93,20 @@
   clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
 }
 .gray1 {
-  top: -36px;
-  right: 368px;
+ top: -50px;
+    right: 233px;
 }
 .gray2 {
-  top: -75px;
-  right: 310px;
+top: -57px;
+    right: 167px;
 }
 .gray3 {
-  top: -35px;
-  left: 385px;
+top: -40px;
+    left: 233px;
 }
 .gray4 {
-  top: 296px;
-  left: 437px;
+      top: 275px;
+    left: 279px;
 }
 
 /*employee*/
