@@ -215,3 +215,102 @@ color:#3A73A8;
  }
 /* Six Cards ends*/
 
+ /* 3 pie charts  */
+.container-white{
+background-color: #FFFFFF80;
+}
+
+.three-charts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0px 80px 0px;
+}
+
+.chart-container{
+text-align: center;
+}
+.chart-container p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    padding-top: 10px;
+}
+.chart-container h2{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.circular-chart-1 {
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: conic-gradient(#D9A867 0deg, #D9A867 273deg, #3A73A8 273deg, #3A73A8 360deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circular-chart-1::before {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+  }
+.circular-chart-2 {
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: conic-gradient(#D9A867 0deg, #D9A867 290deg, #3A73A8 290deg, #3A73A8 360deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circular-chart-2::before {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+  }
+.circular-chart-3 {
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: conic-gradient(#D9A867 0deg, #D9A867 320deg, #3A73A8 320deg, #3A73A8 360deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circular-chart-3::before {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  .percentage {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #333333;
+  }
+
+ /* 3 pie charts  ends*/
+
+ /* 4 cards with circle */
+
+ 
+ /* 4 cards with circle ends*/
