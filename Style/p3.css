@@ -120,7 +120,9 @@
     flex-wrap: wrap;
     margin-top: 80px;
 }
-
+.six-cards .card-six:nth-child(2) p{
+margin-top: 500px;
+}
 .card-six{
     width: 32%;
     height: 245px; /* adjusted this men el adeem */
@@ -148,6 +150,9 @@
     vertical-align: center;
     line-height: 50px;
   }
+  .card-six:nth-child(6) p{
+    margin-top: 5px;
+  }
 
   .card-six span {
     font-size: 16px;
@@ -156,6 +161,15 @@
     margin-top: 30px;
     vertical-align: center;
     line-height: 30px;
+  }
+
+  #small-word {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3A73A8;
+    margin-top: 30px;
+    vertical-align: center;
+    line-height: 25px;
   }
   
 
@@ -179,15 +193,19 @@
     height: 50px;
   }
 .content-big{
-    margin-bottom: 20px;
+    margin-top: 0px;
     text-align: right;
+  
+    transform: translate(
+        -25%,
+        -10%
+      );
 }
  .content-big p{
 font-weight: 600;
 font-size: 30px;
 line-height: 80px;
 color:#C6822A;
-
 }
  .content-big h2{
     font-weight: 700;
