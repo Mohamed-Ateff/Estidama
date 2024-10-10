@@ -41,7 +41,7 @@
 
 /*منهج الاستدامة*/
 /*7 cards*/
-#seven-cards{
+#seven-cards {
   margin: 80px 0 !important;
   padding-top: 0;
   background-color: #ffffff;
@@ -80,8 +80,8 @@
 .gray-hexagon {
   position: absolute;
   background-color: #89898933;
- width: 130px;
-    height: 120px;
+  width: 130px;
+  height: 120px;
   clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
 }
 
@@ -94,19 +94,19 @@
 }
 .gray1 {
   top: -36px;
-    right: 368px;
+  right: 368px;
 }
 .gray2 {
   top: -75px;
-    right: 310px;
+  right: 310px;
 }
 .gray3 {
   top: -35px;
-    left: 385px;
+  left: 385px;
 }
 .gray4 {
   top: 296px;
-    left: 437px;
+  left: 437px;
 }
 
 /*employee*/
@@ -163,6 +163,17 @@
 }
 
 /*charts*/
+#nationality-charts{
+  margin: 80px 0 20px 0 !important;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+#gender-charts{
+    margin:  0 !important;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+
 .chart-container {
   display: flex;
   flex-wrap: wrap;
@@ -171,7 +182,7 @@
 }
 
 .chart-item {
-  width: 23%;
+  width: 22%;
   margin: 20px 0;
 }
 
@@ -269,6 +280,11 @@
   background-color: white;
 }
 
+.noBoarders{
+  border-bottom: none !important;
+    border-top: none !important;
+
+}
 .trainees th,
 .trainees td {
   padding: 8px 12px;
@@ -284,6 +300,7 @@
 .trainees td:first-child {
   width: 20%;
 }
+
 .footer-total {
   background-color: #efdabe;
   text-align: center;
@@ -329,12 +346,12 @@
 .hr-achievement p span {
   display: block;
 }
-.img-cont{
+.img-cont {
   width: 50%;
 }
-    .img-cont img{
-    width: 100%;
-  }
+.img-cont img {
+  width: 100%;
+}
 
 .hr-footer {
   margin: 50px 0;
@@ -385,11 +402,11 @@
   background: linear-gradient(270deg, #ffffff 5.62%, #e3eaf2 104.25%);
   border: 10px solid #3a73a8;
   border-radius: 50px;
-  padding: 10px 20px;
+  padding: 10px 0px;
   font-size: 20px;
   font-weight: 700;
-  width: 370px;
-  height: 100px;
+    width: 336px;
+      height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -411,16 +428,16 @@
   border-color: #c6822a;
 }
 .small-circle::after {
-  content: '';
+  content: "";
   display: block;
   width: 4px;
   height: 35px;
   background-color: #fff;
   position: absolute;
   top: 73%;
-    left: -178%;
-    transform: translate(-50%, -53%) rotate(83deg);
-  }
+  left: -178%;
+transform: translate(-50%, -60%) rotate(88deg);
+}
 
 .small-circle:nth-child(8) {
   transform: rotate(-8deg) translate(120px);
@@ -429,7 +446,7 @@
   transform: rotate(51.42deg) translate(101px);
 }
 .small-circle:nth-child(10) {
-  transform: rotate(137.84deg) translate(120px);
+transform: rotate(137.84deg) translate(113px);
 }
 .small-circle:nth-child(11) {
   transform: rotate(189.26deg) translate(120px);
@@ -482,7 +499,8 @@
 
 .employee-care-footer {
   font-size: 25px;
-  margin: 0px 300px 40px 0px;
+margin: 0px 150px 40px 0px;
+word-spacing: 5px;
 }
 
 h5 {
@@ -490,22 +508,26 @@ h5 {
   color: #3a73a8;
   font-size: 20px;
   height: 80px;
-  margin: 20px 50px;
-  padding: 20px 50px;
+  margin: 30px 50px;
+padding: 20px 65px;
   border-radius: 8px;
 }
 
-.tableChanges,.tableContribution {
+.tableChanges,
+.tableContribution {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 100px;
 }
 .tableChanges th,
-.tableChanges td, .tableContribution th, .tableContribution td {
+.tableChanges td,
+.tableContribution th,
+.tableContribution td {
   padding: 20px;
   border: 1px solid #b5cadd;
 }
-.tableChanges th,.tableContribution th {
+.tableChanges th,
+.tableContribution th {
   background-color: #062e4a;
   color: #fff;
   width: 20%;
@@ -514,7 +536,8 @@ h5 {
   padding: 45px;
   text-align: start;
 }
-.tableChanges td,.tableContribution td {
+.tableChanges td,
+.tableContribution td {
   background-color: #fff;
   font-size: 20px;
   border-bottom: 4px solid #ebeff8dd;
@@ -530,24 +553,62 @@ h5 {
   margin: 40px auto 0 0;
 }
 
-.tableContribution, .tableContribution th{
+.tableChanges ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px;
+  font-weight: 400;
+}
+
+.tableChanges ul li {
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: square;
+  margin-right: 20px;
+}
+
+.tableContribution,
+.tableContribution th {
   text-align: center;
   margin-top: 50px;
 }
-.tableContribution td{
+.tableContribution td {
   font-weight: 700;
 }
-.tableContribution td:first-child{
+.tableContribution td:first-child {
   text-align: start;
   margin-right: 30px;
 }
 
+.best-environment{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
 
+.environment-chart {
+  margin: 20px 0;
+  width: 50%;
+}
+.environment-chart svg{
+  text-align: center;
+  margin: 0 25%;
+}
+.environment-chart div{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #ffffff;
+  padding: 20px 10px;
+  margin: 30px 0;
+}
 
 /*goals*/
-.goals-title{
+.goals-title {
   color: #ffffff;
-  background-color: #D9A867;
+  background-color: #d9a867;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -610,8 +671,7 @@ h5 {
   width: 104px;
   height: 95.37px;
   background-color: #062e4a;
-clip-path: polygon(99% 0, 0 0, 0 100%);
-
+  clip-path: polygon(99% 0, 0 0, 0 100%);
 }
 .moving-number2 {
   position: absolute;
@@ -638,22 +698,24 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
   margin-top: 30px;
 }
 
+.card-content-four2 {
+  width: 100%;
+  position: relative;
+padding: 30px 50px;
+}
+
+.card-content-four2 ul li {
+  font-size: 1rem;
+    line-height: 1.875rem;
+    list-style-type: square;
+    margin-right: 40px;
+}
+
 .card-content-four {
   width: 100%;
   position: relative;
   padding: 110px 50px;
 }
-
-/* .card-content-four h2 {
-  font-size: 1.875rem;
-  color: #3a73a8;
-  font-weight: 700;
-  line-height: 3.514rem;
-  z-index: 2;
-  margin-bottom: 5px;
-} */
-
-
 .card-content-four p {
   font-size: 16px;
 }
@@ -688,24 +750,23 @@ clip-path: polygon(99% 0, 0 0, 0 100%);
 
 /*الهدف 5*/
 
-.goal5-cards{
-  display: flex; 
-  justify-content: space-around; 
+.goal5-cards {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
 .one-card2 {
-width: 49%;
-    /* height: 200px; */
-    margin: 50px 0;
-    background-color: white;
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 35px;
+  width: 49%;
+  /* height: 200px; */
+  margin: 50px 0;
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
 }
-
 
 .logo-div2 {
   /* width: 115px; */
@@ -717,7 +778,6 @@ width: 49%;
   font-weight: bold;
   color: white;
   padding: 0 30px;
-
 }
 .logo-div2 span {
   font-weight: 700;
@@ -728,7 +788,6 @@ width: 49%;
 .one-card2 p {
   font-size: 18px;
   color: #333;
- 
 }
 
 @media (max-width: 1200px) {
@@ -745,16 +804,23 @@ width: 49%;
   }
 }
 @media (max-width: 992px) {
+  .chart-container {
+
+  margin-bottom: 50px;
+}
+.chart-item {
+  width: 49%;
+}
   .employee-care {
     width: 86%;
   }
-  .circle{
+  .circle {
     width: 80%;
   }
-    .employee-care-footer {
+  .employee-care-footer {
     font-size: 25px;
     margin: 0;
-}
+  }
   .goals-cards {
     justify-content: space-between;
   }
@@ -762,13 +828,12 @@ width: 49%;
   .one-card {
     width: 48%;
   }
-    .nationality-card {
+  .nationality-card {
     width: 45%;
   }
-  .img-cont{
+  .img-cont {
     width: 80%;
   }
-
 }
 @media (max-width: 768px) {
   .three-cards {
@@ -780,10 +845,9 @@ width: 49%;
   .card3 {
     width: 100%;
   }
-  #seven-cards{
-  
-  background-color: transparent;
-}
+  #seven-cards {
+    background-color: transparent;
+  }
   .card7 {
     width: 70%;
     margin: 10px 0;
@@ -806,7 +870,6 @@ width: 49%;
   .gray-hexagon2 {
     display: none;
   }
-
 
   .hr-cards {
     flex-direction: column;
@@ -838,65 +901,89 @@ width: 49%;
     height: 100%;
   }
 
-  .center-circle, .small-circle, .small-circle::after {
-   display: none;
+  .center-circle,
+  .small-circle,
+  .small-circle::after {
+    display: none;
   }
   .outer-circles {
-      position: static;
-
+    position: static;
   }
-.circle-container {
-  flex-direction: column;
-  width: 100%;
-  position: static;
-  transform: none !important; 
-}
-    .circle {
-        width: 100%;
-        height: 70px;
-        font-size: 14px;
-        margin: 25px 0;
-    }
+  .circle-container {
+    flex-direction: column;
+    width: 100%;
+    position: static;
+    transform: none !important;
+  }
+  .circle {
+    width: 100%;
+    height: 70px;
+    font-size: 14px;
+    margin: 25px 0;
+  }
 
-    h5{
-      height: fit-content;
-      margin: 20px 0px;
-    }
+  h5 {
+    height: fit-content;
+    margin: 20px 0px;
+  }
 
-    .table-title {
-      width: 72%;
-    }
+  .table-title {
+    width: 72%;
+  }
 
-    .tableChanges td {
+  .tableChanges th {
+    background-color: #062e4a;
+    color: white;
+    padding: 10px;
+  }
+
+  .tableChanges td {
     background-color: #fff;
     padding: 10px;
   }
 
   .tableChanges tr {
-    display: block;
     border: 1px solid #b5cadd;
   }
-  /* .cont{
-    overflow-x: auto;
-  } */
-  .tableContribution th{
-    padding: 20px;
-        font-size: 10px !important;
 
+  .tableContribution th {
+    padding: 20px;
+    font-size: 10px !important;
   }
-  .tableContribution td{
-        font-size: 10px !important;
+  .tableContribution td {
+    font-size: 10px !important;
     padding: 10px;
   }
 
-   .goals-cards {
+  .best-environment{
+flex-direction: column;  
+   width: 100%;
+
+}
+
+.environment-chart {
+  margin: 20px 0;
+  width: 100%;
+}
+.environment-chart svg{
+  text-align: center;
+  margin: 0 25%;
+  width: 60%;
+}
+.environment-chart div{
+ width: 100%;
+ text-align: center;
+  
+}
+
+  .goals-cards {
     flex-direction: column;
     align-items: center;
   }
 
   .one-card {
     width: 100%;
-margin: 30px 0;
+    margin: 30px 0;
   }
 
   .logo-div {
@@ -905,13 +992,12 @@ margin: 30px 0;
     transform: translateX(-50%);
   }
 
-   .four-cards {
-   flex-direction: column;
+  .four-cards {
+    flex-direction: column;
     gap: 5px;
     margin-top: 10px;
-    
   }
-  .card-4-2{
+  .card-4-2 {
     width: 100%;
   }
 
@@ -958,15 +1044,15 @@ margin: 30px 0;
   }
   .moving-number {
     left: 45px;
-    
   }
 
-  .goal5-cards, .one-card2{
+  .goal5-cards,
+  .one-card2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .one-card2{
+  .one-card2 {
     width: 100%;
   }
 }
@@ -983,12 +1069,15 @@ margin: 30px 0;
     justify-content: center;
     align-items: center;
   }
+  .chart-item{
+    width: 100%;
+  }
 
   .nationality-card {
     width: 90%;
   }
 
-    .tableChanges th {
+  .tableChanges th {
     font-size: 16px;
     padding: 8px;
     min-width: 80px;
@@ -999,7 +1088,7 @@ margin: 30px 0;
     padding: 8px;
   }
 
-   .four-cards {
+  .four-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
