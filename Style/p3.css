@@ -71,6 +71,7 @@
   justify-content: space-around;
   gap: 20px;
   margin-top: 30px;
+  flex-wrap: wrap;
 }
 
 .item-col {
@@ -223,6 +224,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 80px 0px 80px 0px;
+  flex-wrap: wrap;
 }
 
 .chart-container {
@@ -502,3 +504,250 @@
   line-height: 40px;
 }
 /* last-section three cards with text ends*/
+
+@media (max-width: 1024px){
+
+  
+}
+
+@media (max-width: 768px){
+  .nine-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .one-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .three-card{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 30px 30px 230px 30px;
+    height: 200px;
+  }
+
+  .logo-div {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .img-col {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+.item-col{
+  width: 100%;
+}
+  .picWithText {
+    width: 400px;
+  }
+
+  .picWithText p {
+    width: 180px;
+   
+  }
+.card-six {
+  width: 100%;
+  height: 270px;
+}
+.logo-pic{
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.content-big {
+  transform: translate(-40%, -10%);
+}
+
+.circle-green {
+  width: 200px;
+  height: 200px;
+  transform: translate(
+    -50%,
+    -50%
+  );
+}
+.circle-content h2 {
+  font-size: 20px;
+}
+.card-4 {
+  height: 180px;
+}
+.card-4 img {
+  width: 48px;
+  height: 48px;
+}
+.four-cards div:nth-child(2) {
+  background: radial-gradient(
+    circle at bottom left,
+    transparent,
+    transparent 120px,
+    #ffffff 30px,
+    #ffffff
+  );}
+  .four-cards div:nth-child(3) {
+    background: radial-gradient(
+      circle at bottom right,
+      transparent,
+      transparent 120px,
+      #ffffff 30px,
+      #ffffff
+    );}
+    .four-cards div:nth-child(4) {
+      background: radial-gradient(
+        circle at top left,
+        transparent,
+        transparent 120px,
+        #ffffff 12px,
+        #ffffff
+      );}
+      .four-cards div:nth-child(5) {
+        background: radial-gradient(
+          circle at top right,
+          transparent,
+          transparent 120px,
+          #ffffff 12px,
+          #ffffff
+        );}
+.four-cards div:nth-child(2),
+.four-cards div:nth-child(4) {
+  padding: 30px 20px 20px 150px;
+}
+.four-cards div:nth-child(3),
+.four-cards div:nth-child(5) {
+  padding: 30px 150px 20px 20px;
+}
+
+.three-charts {
+  justify-content: center;
+  gap: 100px;
+}
+ 
+  .hidden{
+    display: none;
+  }
+  .big-orange {   
+    padding: 50px 50px 50px 50px;
+  }
+}
+
+@media (max-width: 480px){
+  .flex-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo-div {
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+  }
+  
+  .logo-div span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .logo-pic {
+    width: 50px;
+    height: 50px;
+    top: -50px;
+  }
+  .logo-pic img {
+    width: 22.32px;
+    height: 30px;
+  }
+   .one-card { 
+    margin-bottom: 50px;
+    padding: 10px 30px 30px 10px;
+  }
+.content-big {
+  transform: translate(-25%, -10%);
+}
+
+.three-card {
+  height: auto; 
+  padding: 30px 30px 30px 30px;
+}
+
+.item-col {
+  padding: 0px 0px 0px 0px;
+  height: 270px;
+}
+.picWithText {
+  flex-direction: column;
+  align-items: start;
+  width: 315px;
+  padding: 50px;
+}
+.picWithText p {
+  width: 300px;
+  text-align: center;
+  padding-left: 90px;
+  padding-top: 10px;
+  padding: 10px 0px 10px 90px;
+}
+
+.card-4 {
+  height: 120px;
+}
+.circle-green {
+  width: 120px;
+  height: 120px;
+  
+}
+.four-cards div:nth-child(2) {
+  background: radial-gradient(
+    circle at bottom left,
+    transparent,
+    transparent 80px,
+    #ffffff 30px,
+    #ffffff
+  );}
+  .four-cards div:nth-child(3) {
+    background: radial-gradient(
+      circle at bottom right,
+      transparent,
+      transparent 80px,
+      #ffffff 30px,
+      #ffffff
+    );}
+    .four-cards div:nth-child(4) {
+      background: radial-gradient(
+        circle at top left,
+        transparent,
+        transparent 80px,
+        #ffffff 12px,
+        #ffffff
+      );}
+      .four-cards div:nth-child(5) {
+        background: radial-gradient(
+          circle at top right,
+          transparent,
+          transparent 80px,
+          #ffffff 12px,
+          #ffffff
+        );}
+.four-cards div:nth-child(2),
+.four-cards div:nth-child(4) {
+  padding: 30px 20px 20px 50px;
+}
+.four-cards div:nth-child(3),
+.four-cards div:nth-child(5) {
+  padding: 30px 50px 20px 20px;
+}
+.circle-content h2 {
+  padding-top: 15px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.four-cards p {
+  font-size: 15px;
+  color: #005491;
+  line-height: 20px;
+  font-weight: 700;
+}
+}
