@@ -435,3 +435,15 @@ text-align: center;
   
 
  /* 4 cards with circle ends*/
+
+ /* last-section */
+ .big-orange {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #ffffff;
+  background-color: #d9a867;
+  padding: 50px 200px 50px 200px;
+  margin-top: 30px;
+}
