@@ -2,14 +2,31 @@
 .message {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  /* flex-wrap: wrap; */
+}
+.message::before{
+  content: "";
+  width: 100%;
+  bottom: -45px;
+  height: 4px;
+  background-color: #062E4A;
+  position: absolute;
 }
 
 .tree-man {
   width: 400px;
   position: relative;
   top: 50px;
-  margin-right: 0px;
+  margin-left: 78px;
+  z-index: 2;
+}
+.bg-tree{
+  position: absolute;
   z-index: 1;
+  width: 580px;
+  bottom: -42px;
+  left: 0;
 }
 .text-pic {
   padding-top: 200px;
@@ -668,6 +685,24 @@
 /* six cards ends*/
 
 @media (max-width: 1024px) {
+  .tree-man {
+    top: 256px;
+  }
+  .icon-container {
+    height: 100px;
+  }
+  .left-icon {
+    right: 200px;
+  }
+  
+  .right-icon {
+    left: 200px;
+  }
+  #toggle-button {
+    width: 320px;
+    height: 80px;
+    translate: -70%;
+  }
   .two-cards {
     font-size: 18px;
     line-height: 35px;
@@ -751,6 +786,14 @@
 }
 
 @media (max-width: 768px) {
+  .message {
+    flex-direction: column;
+  }
+  .tree-man {
+    top: 50px;
+    left: -130px;
+    margin-left: 0px;
+  }
   .two-cards {
     flex-direction: column;
     font-size: 16px;
@@ -957,6 +1000,19 @@
 }
 
 @media (max-width: 480px) {
+  .tree-man {
+    top: 50px;
+    left: -20px;
+    margin-left: 0px;
+    width: 300px;
+  }
+  .bg-tree{
+    position: absolute;
+    z-index: 1;
+    width: 380px;
+    bottom: -42px;
+    left: 0;
+  }
   #toggle-button {
     width: 320px;
     height: 80px;

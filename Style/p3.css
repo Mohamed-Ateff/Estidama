@@ -422,7 +422,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: end;
-  padding: 50px 350px 30px 100px;
+  padding: 50px 300px 30px 100px;
 }
 
 .four-cards div:nth-child(4) {
@@ -453,7 +453,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: end;
-  padding: 50px 300px 30px 100px;
+  padding: 50px 180px 30px 100px;
 }
 .four-cards div:nth-child(2) h3 {
   padding-bottom: 20px;
