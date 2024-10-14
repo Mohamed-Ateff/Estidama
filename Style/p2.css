@@ -3,13 +3,13 @@
   justify-content: space-between;
   gap: 20px;
   align-items: stretch;
-  padding-top: 150px;
+  padding-top: 50px;
 }
 .card3 {
   color: #fff;
   text-align: center;
   width: 32%;
-  padding: 50px 20px;
+  padding: 60px 50px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -44,8 +44,19 @@
 #seven-cards {
   margin: 80px 0 !important;
   padding-top: 0;
+  position: relative;
+}
+
+#seven-cards::before{
+  content: "";
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  width: 100%;
+  height: 80%;
   background-color: #ffffff;
 }
+
 .card-row {
   display: flex;
   justify-content: center;
@@ -54,28 +65,30 @@
 }
 
 .hexagon {
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 240px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
   color: white;
-  font-size: 20px;
+  padding: 35px;
 }
 .card7 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: -18px;
+  margin: -19px -27px;
 }
 .card7 h2 {
-  font-size: 32px;
+  font-size: 35px;
 }
 .card7 p {
+  line-height: 25px;
   text-align: center;
-  font-size: 14px;
+  font-size: 19px;
+  font-weight: 600;
 }
 .gray-hexagon {
   position: absolute;
@@ -241,15 +254,19 @@ top: -40px;
 .percentage {
   background-color: #005491;
   color: #fff;
-  padding: 5px 30px;
+  padding: 5px 0px;
   font-size: 18px;
+  font-weight: 700;
+  min-width: 48%;
 }
 
 .employee-count {
   background-color: #d9a867;
   color: #062e4a;
-  padding: 5px 40px;
+  padding: 5px 0px;
   font-size: 18px;
+  font-weight: 700;
+  min-width: 48%;
 }
 
 .total-card {
