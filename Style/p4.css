@@ -1,0 +1,73 @@
+.governance-pillars {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 50px 0;
+  padding: 20px 0;
+  width: 90%;
+  position: relative;
+}
+.governance-steps div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+}
+.governance-circle {
+  width: 32.65px;
+  height: 32.65px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+}
+.governance-img {
+  position: absolute;
+  top: -17px;
+  left: -183px;
+}
+.governance-img img {
+  max-width: 300px;
+}
+
+/*              الهيكل التنظيمي للشركـة*/
+.ownersTable {
+  margin: 50px auto 65px auto;
+  width: 100%;
+  border-collapse: collapse;
+  direction: rtl;
+}
+
+.ownersTable th {
+  background-color: #062e4a;
+  color: #fff;
+  font-size: 20px;
+  padding: 30px;
+    border: 1px solid #ebeff8dd;
+
+}
+
+
+
+.ownersTable td {
+  background-color: #fff;
+  border: 1px solid #b5cadd;
+  text-align: center;
+
+  font-weight: 700;
+  padding: 20px;
+}
+.ownersTable th:first-child {
+width: 35%;
+}
+.ownersTable td:nth-child(2) {
+  color: #939598;
+}
+.ownersTable td:last-child {
+  /* width: 9.5%; */
+}
+.ownersTable td span{
+    font-weight: 400;
+
+}
