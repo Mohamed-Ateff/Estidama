@@ -33,7 +33,7 @@
 
 /*              الهيكل التنظيمي للشركـة*/
 .ownersTable {
-  margin: 50px auto 65px auto;
+  margin: 50px auto 5px auto;
   width: 100%;
   border-collapse: collapse;
   direction: rtl;
@@ -138,6 +138,22 @@
   font-weight: 700;
   padding: 0 0px 0 40px;
 }
+
+#yearTable th{
+   width: 30%;
+}
+#yearTable td:nth-child(2) {
+    color: black;
+}
+
+.footnote {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: left;
+  color: #333;
+  font-style: italic;
+}
+
 
 @media (max-width: 1024px) {
   .card-grid {
