@@ -1,0 +1,204 @@
+.governance-pillars {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 50px 0;
+  padding: 20px 0;
+  width: 90%;
+  position: relative;
+}
+.governance-steps div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+}
+.governance-circle {
+  width: 32.65px;
+  height: 32.65px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+}
+.governance-img {
+  position: absolute;
+  top: -17px;
+  left: -183px;
+}
+.governance-img img {
+  max-width: 300px;
+}
+
+/*              الهيكل التنظيمي للشركـة*/
+.ownersTable {
+  margin: 50px auto 65px auto;
+  width: 100%;
+  border-collapse: collapse;
+  direction: rtl;
+}
+
+.ownersTable th {
+  background-color: #062e4a;
+  color: #fff;
+  font-size: 20px;
+  padding: 30px;
+  border: 1px solid #ebeff8dd;
+}
+
+.ownersTable td {
+  background-color: #fff;
+  border: 1px solid #b5cadd;
+  text-align: center;
+
+  font-weight: 700;
+  padding: 20px;
+}
+.ownersTable th:first-child {
+  width: 35%;
+}
+.ownersTable td:nth-child(2) {
+  color: #939598;
+}
+.ownersTable td:last-child {
+  /* width: 9.5%; */
+}
+.ownersTable td span {
+  font-weight: 400;
+}
+
+/*     الحوكمـة وإدارة العمل*/
+.behavior-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.behavior-cards > div {
+  width: 23%;
+  min-height: 160px;
+  background-color: rgba(137, 137, 137, 0.1);
+  text-align: center;
+  padding: 50px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*                   الحوكمة وتعزيز الآثار الاقتصادية*/
+#card-grid {
+  padding: 40px 0px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+  text-align: right;
+  direction: rtl;
+}
+
+.card {
+  background-color: white;
+  padding: 20px 30px 0px 0px;
+  position: relative;
+  overflow: hidden;
+  height: 180px;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 22%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid #ebeff8dd;
+}
+
+.card h3 {
+  color: #3a73a8;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 37.48px;
+  margin-bottom: 10px;
+  padding: 0 0px 0 40px;
+}
+
+.card p {
+  color: #333;
+  font-size: 16px;
+  line-height: 29.98px;
+  font-weight: 700;
+  padding: 0 0px 0 40px;
+}
+
+@media (max-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 992px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .card::before {
+    border-right: 15px solid #c7cdd8;
+  }
+}
+
+@media (max-width: 768px) {
+  .governance-pillars {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+  }
+  .governance-img {
+    position: static;
+  }
+
+  .ownersTable th,
+  .ownersTable td {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .ownersTable th {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ownersTable {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+  .ownersTable th,
+  .ownersTable td {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .ownersTable th {
+    font-size: 14px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card::before {
+    border-right: 10px solid #c7cdd8;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #ebeff8dd;
+  }
+}
