@@ -31,6 +31,234 @@
   max-width: 300px;
 }
 
+.gov-axes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+/* صف البطاقات العليا */
+.top-row,
+.bottom-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.gov-card {
+  width: 25%;
+  background-color: white;
+
+  margin: 20px 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.card-name {
+  padding: 38px 50px 17px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gov-card h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.gov-card-number {
+  position: absolute;
+  color: white;
+  padding: 0px 6px;
+  border-radius: 0 0 30% 30%;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* وضع الرقم أعلى البطاقات العليا */
+.top-row .gov-card-number {
+  top: -10px;
+  left: 10px;
+}
+
+/* وضع الرقم أسفل البطاقات السفلى */
+.bottom-row .gov-card-number {
+  bottom: -10px;
+  left: 10px;
+}
+
+/* تخصيص ألوان الأرقام والمربعات الصغيرة */
+.gov-card-1 .gov-card-number,
+.gov-square-1,
+.gov-square-center-1 {
+  background-color: #005491;
+}
+.gov-card-2 .gov-card-number,
+.gov-square-2,
+.gov-square-center-2 {
+  background-color: #d9a867;
+}
+.gov-card-3 .gov-card-number,
+.gov-square-3,
+.gov-square-center-3 {
+  background-color: #16a851;
+}
+.gov-card-4 .gov-card-number,
+.gov-square-4,
+.gov-square-center-4 {
+  background-color: #c6822a;
+}
+.gov-card-5 .gov-card-number,
+.gov-square-5,
+.gov-square-center-5 {
+  background-color: #c6822a;
+}
+.gov-card-6 .gov-card-number,
+.gov-square-6,
+.gov-square-center-6 {
+  background-color: #16a851;
+}
+.gov-card-7 .gov-card-number,
+.gov-square-7,
+.gov-square-center-7 {
+  background-color: #d9a867;
+}
+.gov-card-8 .gov-card-number,
+.gov-square-8,
+.gov-square-center-8 {
+  background-color: #005491;
+}
+
+/* البطاقة المركزية */
+.center-gov-card {
+  background-color: #013243;
+  color: white;
+  padding: 20px 50px;
+  margin: 120px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* المربعات الصغيرة حول البطاقة المركزية */
+.gov-square-center {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+
+/* مربعات حول البطاقة المركزية */
+.gov-square-center-1 {
+  top: -30px;
+  right: 200px;
+}
+.gov-square-center-2 {
+  top: -30px;
+  right: 250px;
+}
+.gov-square-center-3 {
+  top: -30px;
+  right: 300px;
+}
+.gov-square-center-4 {
+  top: -30px;
+  right: 350px;
+}
+
+.gov-square-center-5 {
+  bottom: -30px;
+  right: 200px;
+}
+.gov-square-center-6 {
+  bottom: -30px;
+  right: 250px;
+}
+.gov-square-center-7 {
+  bottom: -30px;
+  right: 300px;
+}
+.gov-square-center-8 {
+  bottom: -30px;
+  right: 350px;
+}
+
+/* المربعات الصغيرة في البطاقات الخارجية */
+.gov-square {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+
+/* مربعات أسفل البطاقات العليا */
+.top-row .gov-square {
+  top: 110%;
+  right: 50%;
+}
+
+/* مربعات أعلى البطاقات السفلى */
+.bottom-row .gov-square {
+  bottom: 110%;
+  right: 50%;
+}
+
+/* الخطوط المتقطعة */
+.line {
+  position: absolute;
+  width: 2px;
+  border-right: 2px dashed #bcbec0;
+}
+
+/* توصيل المربعات من البطاقات إلى البطاقة المركزية */
+.line-1 {
+  top: 125%;
+  right: 52.5%;
+  height: 40px;
+}
+
+.line-2 {
+  top: 125%;
+  right: 52.5%;
+  height: 40px;
+}
+
+.line-3 {
+  top: 125%;
+  right: 52.5%;
+  height: 40px;
+}
+
+.line-4 {
+  top: 125%;
+  right: 52.5%;
+  height: 40px;
+}
+
+.line-5 {
+  bottom: 120%;
+  right: 52.5%;
+  height: 30px;
+}
+
+.line-6 {
+  bottom: 120%;
+  right: 52.5%;
+  height: 30px;
+}
+
+.line-7 {
+  bottom: 120%;
+  right: 52.5%;
+  height: 30px;
+}
+
+.line-8 {
+  bottom: 120%;
+  right: 52.5%;
+  height: 30px;
+}
+
 /*              الهيكل التنظيمي للشركـة*/
 .ownersTable {
   margin: 50px auto 5px auto;
@@ -139,11 +367,23 @@
   padding: 0 0px 0 40px;
 }
 
-#yearTable th{
-   width: 30%;
+.table-title {
+  background-color: #c6822a;
+  color: #fff;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 40px auto 0 0;
+}
+#yearTable {
+  margin: auto;
+}
+#yearTable th {
+  width: 30%;
 }
 #yearTable td:nth-child(2) {
-    color: black;
+  color: black;
 }
 
 .footnote {
@@ -154,6 +394,12 @@
   font-style: italic;
 }
 
+.work li {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  list-style-type: decimal;
+  margin-right: 20px;
+}
 
 @media (max-width: 1024px) {
   .card-grid {

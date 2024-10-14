@@ -2,14 +2,12 @@ const saudiColor = '#062E4A';
 const nonSaudiColor = '#005491';
 const maleColor = '#005491';
 const femaleColor = '#C6822A';
-
 const saudiData = [
     { year: '2023', saudi: 66.5, nonSaudi: 33.5 },
     { year: '2022', saudi: 63, nonSaudi: 37 },
     { year: '2021', saudi: 55, nonSaudi: 45 },
     { year: '2020', saudi: 48, nonSaudi: 52 }
 ];
-
 const genderData = [
     { year: '2023', male: 71.5, female: 28.5 },
     { year: '2022', male: 71, female: 29 },
