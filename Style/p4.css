@@ -150,7 +150,6 @@
   z-index: -1;
 }
 
-/* تخصيص ألوان المثلثات حسب الرقم */
 .gov-card-1 .gov-card-number::before {
   border-bottom-color: #002038;
 }
@@ -167,13 +166,12 @@
   border-bottom-color: #5c3d15;
 }
 
-/* المثلثات المقلوبة لآخر 4 بطاقات */
 .gov-card-5 .gov-card-number::before,
 .gov-card-6 .gov-card-number::before,
 .gov-card-7 .gov-card-number::before,
 .gov-card-8 .gov-card-number::before {
   top: 30px;
-  bottom: -30px; /* وضع المثلث أسفل الرقم */
+  bottom: -30px; 
   transform: rotate(180deg);
   right: -9px;
 }
