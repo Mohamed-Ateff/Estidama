@@ -130,6 +130,69 @@
 .gov-square-center-8 {
   background-color: #005491;
 }
+.gov-card-5 .gov-card-number,
+.gov-card-6 .gov-card-number,
+.gov-card-7 .gov-card-number,
+.gov-card-8 .gov-card-number {
+  border-radius: 30% 30% 0 0;
+}
+.gov-card-number::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid;
+  top: 0px;
+  transform: translateY(0);
+  right: -9px;
+  z-index: -1;
+}
+
+/* تخصيص ألوان المثلثات حسب الرقم */
+.gov-card-1 .gov-card-number::before {
+  border-bottom-color: #002038;
+}
+
+.gov-card-2 .gov-card-number::before {
+  border-bottom-color: #654f31;
+}
+
+.gov-card-3 .gov-card-number::before {
+  border-bottom-color: #0d5a2c;
+}
+
+.gov-card-4 .gov-card-number::before {
+  border-bottom-color: #5c3d15;
+}
+
+/* المثلثات المقلوبة لآخر 4 بطاقات */
+.gov-card-5 .gov-card-number::before,
+.gov-card-6 .gov-card-number::before,
+.gov-card-7 .gov-card-number::before,
+.gov-card-8 .gov-card-number::before {
+  top: 30px;
+  bottom: -30px; /* وضع المثلث أسفل الرقم */
+  transform: rotate(180deg);
+  right: -9px;
+}
+
+.gov-card-5 .gov-card-number::before {
+  border-bottom-color: #5c3d15;
+}
+
+.gov-card-6 .gov-card-number::before {
+  border-bottom-color: #0d5a2c;
+}
+
+.gov-card-7 .gov-card-number::before {
+  border-bottom-color: #654f31;
+}
+
+.gov-card-8 .gov-card-number::before {
+  border-bottom-color: #002038;
+}
 
 .center-gov-card {
   background-color: #013243;
@@ -297,7 +360,7 @@
 }
 .behavior-cards > div {
   width: 23%;
-  min-height: 160px;
+  height: 160px;
   background-color: rgba(137, 137, 137, 0.1);
   text-align: center;
   padding: 50px;
@@ -361,7 +424,7 @@
 .table-title {
   background-color: #c6822a;
   color: #fff;
-  height: 45px;
+  min-height: 45px;
   font-size: 20px;
   font-weight: 700;
   text-align: center;
@@ -398,6 +461,9 @@
   }
 }
 @media (max-width: 992px) {
+  .behavior-cards > div {
+    width: 32%;
+  }
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -427,9 +493,26 @@
   .ownersTable th {
     font-size: 16px;
   }
+  .behavior-cards > div {
+    width: 48%;
+  }
 }
 
 @media (max-width: 480px) {
+  .center-gov-card,
+  .gov-square-center,
+  .line {
+    display: none;
+  }
+  .top-row,
+  .bottom-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gov-card {
+    width: 100%;
+  }
+
   .ownersTable {
     width: 100%;
     overflow-x: auto;
@@ -442,6 +525,30 @@
   }
   .ownersTable th {
     font-size: 14px;
+  }
+
+  .bottom-row .gov-card-number {
+    top: -10px;
+    left: 10px;
+    bottom: unset;
+  }
+  .gov-card-5 .gov-card-number,
+  .gov-card-6 .gov-card-number,
+  .gov-card-7 .gov-card-number,
+  .gov-card-8 .gov-card-number {
+    border-radius: 0 0 30% 30%;
+  }
+  .gov-card-5 .gov-card-number::before,
+  .gov-card-6 .gov-card-number::before,
+  .gov-card-7 .gov-card-number::before,
+  .gov-card-8 .gov-card-number::before {
+    top: 0px;
+    transform: translateY(0);
+    right: -9px;
+  }
+
+  .behavior-cards > div {
+    width: 100%;
   }
 
   .card-grid {
