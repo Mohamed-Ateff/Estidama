@@ -171,7 +171,7 @@
 .gov-card-7 .gov-card-number::before,
 .gov-card-8 .gov-card-number::before {
   top: 30px;
-  bottom: -30px; 
+  bottom: -30px;
   transform: rotate(180deg);
   right: -9px;
 }
@@ -195,10 +195,11 @@
 .center-gov-card {
   background-color: #013243;
   color: white;
-padding: 15px 45px;
+  padding: 15px 45px;
   margin: 120px 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
+  text-align: center;
 }
 
 .gov-square-center {
@@ -209,7 +210,7 @@ padding: 15px 45px;
 
 .gov-square-center-1 {
   top: -30px;
-right: 34%;
+  right: 34%;
 }
 .gov-square-center-2 {
   top: -30px;
@@ -260,152 +261,152 @@ right: 34%;
 .line {
   position: absolute;
   border-bottom: 3px dashed transparent;
-border-image: repeating-linear-gradient(to right, #bcbec0 0, /* Start color */ #bcbec0 13px, /* Dash width (10px) */ transparent 13px, /* Start of the space between dashes */ transparent 25px /* Space width (20px) */) 1;
-    transform: rotateZ(90deg);
-z-index: -1;
+  border-image: repeating-linear-gradient(
+      to right,
+      #bcbec0 0,
+      #bcbec0 13px,
+      transparent 13px,
+      transparent 25px
+    )
+    1;
+  transform: rotateZ(90deg);
+  z-index: -1;
 }
 
 .line-1-1 {
   top: 150%;
-    right: 41.5%;
-    width: 23%;
+  right: 41.5%;
+  width: 23%;
 }
 .line-1-2 {
-transform: rotateZ(0);
-   top: 175%;
-    right: 51.5%;
-    width: 125%;
-    
+  transform: rotateZ(0);
+  top: 175%;
+  right: 51.5%;
+  width: 125%;
 }
 .line-1-3 {
-   top: 184%;
-    right: 172.5%;
-    width: 7%;
+  top: 184%;
+  right: 172.5%;
+  width: 7%;
 }
 
 .line-2-1 {
   top: 128%;
-    right: 50%;
-    width: 5%;
+  right: 50%;
+  width: 5%;
 }
 .line-2-2 {
-    
-transform: rotateZ(0);
- top: 135%;
-    right: 52.5%;
-    width: 38%;
+  transform: rotateZ(0);
+  top: 135%;
+  right: 52.5%;
+  width: 38%;
 }
 .line-2-3 {
   top: 164%;
-    right: 78.5%;
-    width: 23%;
+  right: 78.5%;
+  width: 23%;
 }
 
 .line-3-1 {
   top: 128%;
-    left: 45%;
-    width: 5%;
+  left: 45%;
+  width: 5%;
 }
 .line-3-2 {
-    
-transform: rotateZ(0);
+  transform: rotateZ(0);
   top: 135%;
-    left: 47%;
-    width: 49%;
+  left: 47%;
+  width: 49%;
 }
 .line-3-3 {
- top: 164%;
-    left: 85.5%;
-    width: 23%;
+  top: 164%;
+  left: 85.5%;
+  width: 23%;
 }
 
 .line-4-1 {
   top: 149%;
-    left: 35.5%;
-    width: 23%;
+  left: 35.5%;
+  width: 23%;
 }
 .line-4-2 {
-   transform: rotateZ(0);
-   top: 174%;
-    left: 47%;
-    width: 136%;
+  transform: rotateZ(0);
+  top: 174%;
+  left: 47%;
+  width: 136%;
 }
 .line-4-3 {
-   top: 184%;
-    left: 180.5%;
-    width: 5%;
+  top: 184%;
+  left: 180.5%;
+  width: 5%;
 }
 
 .line-5-1 {
-bottom: 140%;
-    right: 41%;
-    width: 23%;
+  bottom: 140%;
+  right: 41%;
+  width: 23%;
 }
 .line-5-2 {
-transform: rotateZ(0);
-bottom: 163%;
-    right: 51.5%;
-    width: 125%;
-    
+  transform: rotateZ(0);
+  bottom: 163%;
+  right: 51.5%;
+  width: 125%;
 }
 .line-5-3 {
-bottom: 166%;
-    right: 172.5%;
-    width: 7%;
+  bottom: 166%;
+  right: 172.5%;
+  width: 7%;
 }
 
 .line-6-1 {
- bottom: 124%;
-    right: 50%;
-    width: 5%;
+  bottom: 124%;
+  right: 50%;
+  width: 5%;
 }
 .line-6-2 {
-    
-transform: rotateZ(0);
-    bottom: 129%;
-    right: 52.5%;
-    width: 38%;
+  transform: rotateZ(0);
+  bottom: 129%;
+  right: 52.5%;
+  width: 38%;
 }
 .line-6-3 {
   bottom: 150%;
-    right: 79%;
-    width: 23%;
-
+  right: 79%;
+  width: 23%;
 }
 
 .line-7-1 {
-bottom: 124%;
-    left: 45%;
-    width: 5%;
+  bottom: 124%;
+  left: 45%;
+  width: 5%;
 }
 .line-7-2 {
-    
-transform: rotateZ(0);
-    bottom: 129%;
-    left: 47%;
-    width: 49%;
+  transform: rotateZ(0);
+  bottom: 129%;
+  left: 47%;
+  width: 49%;
 }
 .line-7-3 {
-bottom: 152%;
-    left: 85.5%;
-    width: 23%;
+  bottom: 152%;
+  left: 85.5%;
+  width: 23%;
 }
 
 .line-8-1 {
- bottom: 140%;
-    left: 36%;
-    width: 23%;
+  bottom: 140%;
+  left: 36%;
+  width: 23%;
 }
 .line-8-2 {
   transform: rotateZ(0);
-    bottom: 164%;
-    left: 47%;
-    width: 136%;
+  bottom: 164%;
+  left: 47%;
+  width: 136%;
 }
 .line-8-3 {
- bottom: 170%;
-    left: 180.5%;
-    width: 5%;
+  bottom: 170%;
+  left: 180.5%;
+  width: 5%;
 }
 
 /*              الهيكل التنظيمي للشركـة*/
@@ -567,6 +568,57 @@ bottom: 152%;
   .card::before {
     border-right: 15px solid #c7cdd8;
   }
+
+  .gov-card,
+  .bottom-row .gov-card {
+    box-shadow: none;
+    margin: 0 8px;
+  }
+  .gov-card-1 .gov-card-number,
+  .gov-card-2 .gov-card-number {
+    border-radius: 30% 0 0 30%;
+    top: 6%;
+    left: 80%;
+  }
+
+  .gov-card-5 .gov-card-number,
+  .gov-card-6 .gov-card-number {
+    border-radius: 30% 0 0 30%;
+    bottom: 6%;
+    left: 80%;
+  }
+  .gov-card-1 .gov-card-number::before,
+  .gov-card-2 .gov-card-number::before,
+  .gov-card-5 .gov-card-number::before,
+  .gov-card-6 .gov-card-number::before {
+    top: -7px;
+    transform: rotate(90deg);
+    right: -3px;
+  }
+
+  .gov-card-3 .gov-card-number,
+  .gov-card-4 .gov-card-number {
+    border-radius: 0 30% 30% 0;
+    top: 6%;
+    left: -7px;
+  }
+  .gov-card-7 .gov-card-number,
+  .gov-card-8 .gov-card-number {
+    border-radius: 0 30% 30% 0;
+    bottom: 6%;
+    left: -7px;
+  }
+  .gov-card-3 .gov-card-number::before,
+  .gov-card-4 .gov-card-number::before,
+  .gov-card-7 .gov-card-number::before,
+  .gov-card-8 .gov-card-number::before {
+    top: -13px;
+    transform: rotate(0deg);
+    right: 19px;
+  }
+  .center-gov-card h2 {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -580,17 +632,138 @@ bottom: 152%;
     position: static;
   }
 
-  .ownersTable th,
-  .ownersTable td {
-    padding: 10px;
-    font-size: 14px;
+  .line-1-1 {
+    top: 126%;
+    right: 38%;
+    width: 34%;
   }
-  .ownersTable th {
-    font-size: 16px;
+  .line-1-2 {
+    top: 135%;
+    right: 54.5%;
+    width: 111%;
   }
-  .behavior-cards > div {
-    width: 48%;
+  .line-1-3 {
+    top: 138%;
+    right: 161.5%;
+    width: 7%;
   }
+  .line-2-1 {
+    top: 121%;
+    right: 48%;
+    width: 16%;
+  }
+  .line-2-2 {
+    top: 124%;
+    right: 48%;
+    width: 37%;
+  }
+  .line-2-3 {
+    top: 131%;
+    right: 75.5%;
+    width: 22%;
+  }
+  .line-3-1 {
+    top: 118%;
+    left: 42%;
+    width: 5%;
+  }
+  .line-3-2 {
+    top: 121%;
+    left: 44%;
+    width: 54%;
+  }
+  .line-3-3 {
+    top: 131%;
+    left: 85.5%;
+    width: 23%;
+  }
+  .line-4-1 {
+    top: 125%;
+    left: 30%;
+    width: 29%;
+  }
+  .line-4-2 {
+    top: 134%;
+    left: 54%;
+    width: 129%;
+  }
+  .line-4-3 {
+    top: 138%;
+    left: 172.5%;
+    width: 5%;
+  }
+  .line-5-1 {
+    bottom: 120%;
+    right: 38%;
+    width: 34%;
+  }
+  .line-5-2 {
+    bottom: 128%;
+    right: 54.5%;
+    width: 111%;
+  }
+  .line-5-3 {
+    bottom: 130%;
+    right: 161.5%;
+    width: 7%;
+  }
+  .line-6-1 {
+    bottom: 116%;
+    right: 48%;
+    width: 16%;
+  }
+  .line-6-2 {
+    bottom: 120%;
+    right: 48%;
+    width: 37%;
+  }
+  .line-6-3 {
+    bottom: 127%;
+    right: 75.5%;
+    width: 22%;
+  }
+}
+.line-7-1 {
+  bottom: 118%;
+  left: 42%;
+  width: 5%;
+}
+.line-7-2 {
+  bottom: 120%;
+  left: 44%;
+  width: 54%;
+}
+.line-7-3 {
+  bottom: 127%;
+  left: 85.5%;
+  width: 23%;
+}
+.line-8-1 {
+  bottom: 122%;
+  left: 30%;
+  width: 29%;
+}
+.line-8-2 {
+  bottom: 128%;
+  left: 54%;
+  width: 129%;
+}
+.line-8-3 {
+  bottom: 131%;
+  left: 172.5%;
+  width: 5%;
+}
+
+.ownersTable th,
+.ownersTable td {
+  padding: 10px;
+  font-size: 14px;
+}
+.ownersTable th {
+  font-size: 16px;
+}
+.behavior-cards > div {
+  width: 48%;
 }
 
 @media (max-width: 480px) {
@@ -604,8 +777,28 @@ bottom: 152%;
     flex-direction: column;
     align-items: center;
   }
-  .gov-card {
+  .gov-card,
+  .gov-card,
+  .bottom-row .gov-card {
     width: 100%;
+    margin: 20px 0;
+  }
+
+  .top-row .gov-card-number,
+  .bottom-row .gov-card-number {
+    top: -10px;
+    left: 10px;
+    bottom: unset;
+  }
+
+  .gov-card .gov-card-number {
+    border-radius: 0 0 30% 30%;
+  }
+
+  .gov-card .gov-card-number::before {
+    top: 0px;
+    transform: translateY(0);
+    right: -9px;
   }
 
   .ownersTable {
@@ -620,26 +813,6 @@ bottom: 152%;
   }
   .ownersTable th {
     font-size: 14px;
-  }
-
-  .bottom-row .gov-card-number {
-    top: -10px;
-    left: 10px;
-    bottom: unset;
-  }
-  .gov-card-5 .gov-card-number,
-  .gov-card-6 .gov-card-number,
-  .gov-card-7 .gov-card-number,
-  .gov-card-8 .gov-card-number {
-    border-radius: 0 0 30% 30%;
-  }
-  .gov-card-5 .gov-card-number::before,
-  .gov-card-6 .gov-card-number::before,
-  .gov-card-7 .gov-card-number::before,
-  .gov-card-8 .gov-card-number::before {
-    top: 0px;
-    transform: translateY(0);
-    right: -9px;
   }
 
   .behavior-cards > div {
