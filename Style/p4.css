@@ -195,7 +195,7 @@
 .center-gov-card {
   background-color: #013243;
   color: white;
-  padding: 20px 50px;
+padding: 15px 45px;
   margin: 120px 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -209,36 +209,36 @@
 
 .gov-square-center-1 {
   top: -30px;
-  right: 200px;
+right: 34%;
 }
 .gov-square-center-2 {
   top: -30px;
-  right: 250px;
+  right: 43%;
 }
 .gov-square-center-3 {
   top: -30px;
-  right: 300px;
+  right: 51%;
 }
 .gov-square-center-4 {
   top: -30px;
-  right: 350px;
+  right: 60%;
 }
 
 .gov-square-center-5 {
   bottom: -30px;
-  right: 200px;
+  right: 34%;
 }
 .gov-square-center-6 {
   bottom: -30px;
-  right: 250px;
+  right: 43%;
 }
 .gov-square-center-7 {
   bottom: -30px;
-  right: 300px;
+  right: 51%;
 }
 .gov-square-center-8 {
   bottom: -30px;
-  right: 350px;
+  right: 60%;
 }
 
 .gov-square {
@@ -259,56 +259,153 @@
 
 .line {
   position: absolute;
-  width: 2px;
-  border-right: 2px dashed #bcbec0;
+  border-bottom: 3px dashed transparent;
+border-image: repeating-linear-gradient(to right, #bcbec0 0, /* Start color */ #bcbec0 13px, /* Dash width (10px) */ transparent 13px, /* Start of the space between dashes */ transparent 25px /* Space width (20px) */) 1;
+    transform: rotateZ(90deg);
+z-index: -1;
 }
 
-.line-1 {
-  top: 125%;
-  right: 52.5%;
-  height: 40px;
+.line-1-1 {
+  top: 150%;
+    right: 41.5%;
+    width: 23%;
+}
+.line-1-2 {
+transform: rotateZ(0);
+   top: 175%;
+    right: 51.5%;
+    width: 125%;
+    
+}
+.line-1-3 {
+   top: 184%;
+    right: 172.5%;
+    width: 7%;
 }
 
-.line-2 {
-  top: 125%;
-  right: 52.5%;
-  height: 40px;
+.line-2-1 {
+  top: 128%;
+    right: 50%;
+    width: 5%;
+}
+.line-2-2 {
+    
+transform: rotateZ(0);
+ top: 135%;
+    right: 52.5%;
+    width: 38%;
+}
+.line-2-3 {
+  top: 164%;
+    right: 78.5%;
+    width: 23%;
 }
 
-.line-3 {
-  top: 125%;
-  right: 52.5%;
-  height: 40px;
+.line-3-1 {
+  top: 128%;
+    left: 45%;
+    width: 5%;
+}
+.line-3-2 {
+    
+transform: rotateZ(0);
+  top: 135%;
+    left: 47%;
+    width: 49%;
+}
+.line-3-3 {
+ top: 164%;
+    left: 85.5%;
+    width: 23%;
 }
 
-.line-4 {
-  top: 125%;
-  right: 52.5%;
-  height: 40px;
+.line-4-1 {
+  top: 149%;
+    left: 35.5%;
+    width: 23%;
+}
+.line-4-2 {
+   transform: rotateZ(0);
+   top: 174%;
+    left: 47%;
+    width: 136%;
+}
+.line-4-3 {
+   top: 184%;
+    left: 180.5%;
+    width: 5%;
 }
 
-.line-5 {
-  bottom: 120%;
-  right: 52.5%;
-  height: 30px;
+.line-5-1 {
+bottom: 140%;
+    right: 41%;
+    width: 23%;
+}
+.line-5-2 {
+transform: rotateZ(0);
+bottom: 163%;
+    right: 51.5%;
+    width: 125%;
+    
+}
+.line-5-3 {
+bottom: 166%;
+    right: 172.5%;
+    width: 7%;
 }
 
-.line-6 {
-  bottom: 120%;
-  right: 52.5%;
-  height: 30px;
+.line-6-1 {
+ bottom: 124%;
+    right: 50%;
+    width: 5%;
+}
+.line-6-2 {
+    
+transform: rotateZ(0);
+    bottom: 129%;
+    right: 52.5%;
+    width: 38%;
+}
+.line-6-3 {
+  bottom: 150%;
+    right: 79%;
+    width: 23%;
+
 }
 
-.line-7 {
-  bottom: 120%;
-  right: 52.5%;
-  height: 30px;
+.line-7-1 {
+bottom: 124%;
+    left: 45%;
+    width: 5%;
+}
+.line-7-2 {
+    
+transform: rotateZ(0);
+    bottom: 129%;
+    left: 47%;
+    width: 49%;
+}
+.line-7-3 {
+bottom: 152%;
+    left: 85.5%;
+    width: 23%;
 }
 
-.line-8 {
-  bottom: 120%;
-  right: 52.5%;
-  height: 30px;
+.line-8-1 {
+ bottom: 140%;
+    left: 36%;
+    width: 23%;
+}
+.line-8-2 {
+  transform: rotateZ(0);
+    bottom: 164%;
+    left: 47%;
+    width: 136%;
+}
+.line-8-3 {
+ bottom: 170%;
+    left: 180.5%;
+    width: 5%;
 }
 
 /*              الهيكل التنظيمي للشركـة*/
