@@ -722,48 +722,48 @@
     right: 75.5%;
     width: 22%;
   }
-}
-.line-7-1 {
-  bottom: 118%;
-  left: 42%;
-  width: 5%;
-}
-.line-7-2 {
-  bottom: 120%;
-  left: 44%;
-  width: 54%;
-}
-.line-7-3 {
-  bottom: 127%;
-  left: 85.5%;
-  width: 23%;
-}
-.line-8-1 {
-  bottom: 122%;
-  left: 30%;
-  width: 29%;
-}
-.line-8-2 {
-  bottom: 128%;
-  left: 54%;
-  width: 129%;
-}
-.line-8-3 {
-  bottom: 131%;
-  left: 172.5%;
-  width: 5%;
-}
+  .line-7-1 {
+    bottom: 118%;
+    left: 42%;
+    width: 5%;
+  }
+  .line-7-2 {
+    bottom: 120%;
+    left: 44%;
+    width: 54%;
+  }
+  .line-7-3 {
+    bottom: 127%;
+    left: 85.5%;
+    width: 23%;
+  }
+  .line-8-1 {
+    bottom: 122%;
+    left: 30%;
+    width: 29%;
+  }
+  .line-8-2 {
+    bottom: 128%;
+    left: 54%;
+    width: 129%;
+  }
+  .line-8-3 {
+    bottom: 131%;
+    left: 172.5%;
+    width: 5%;
+  }
 
-.ownersTable th,
-.ownersTable td {
-  padding: 10px;
-  font-size: 14px;
-}
-.ownersTable th {
-  font-size: 16px;
-}
-.behavior-cards > div {
-  width: 48%;
+  .ownersTable th,
+  .ownersTable td {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .ownersTable th {
+    font-size: 16px;
+  }
+  .behavior-cards > div {
+    width: 48%;
+  }
 }
 
 @media (max-width: 480px) {
