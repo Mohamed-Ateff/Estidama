@@ -1169,3 +1169,90 @@ flex-direction: column;
     color: white;
   }
 }
+
+
+body[lang="en"] {
+  .table-title {
+    margin: 40px 0 0 20%;
+  }
+  .logo-div, .logo-div2{
+      display: flex;
+    flex-direction: row-reverse;
+    right: 71%;
+    }
+
+    .small-triangle2 {
+    right: 0%;
+    left: unset;
+    clip-path: polygon(99% 100%, 100% 0, 0 0);
+}
+    .moving-number2, .counter2 {
+        right: 15px;
+        left: unset;
+    }
+
+  .card-4 {
+    clip-path: polygon(
+      0% 0%,
+      0% 100%,
+      84% 100%,
+      100% 70%,
+      100% 98%,
+      100% 100%,
+      100% 0%
+    );
+  }
+    .small-triangle {
+    left: 84%;
+    top: 70%;
+  }
+  .moving-number,
+  .counter {
+    right: 50px;
+    left: unset;
+  }
+.card-content-four {
+
+    padding: 45px 50px;
+}
+
+
+  @media (max-width: 768px) {
+    .card-4 {
+      height: 330px;
+    }
+    .small-triangle {
+      left: 84%;
+      top: 70%;
+    }
+  }
+  @media (max-width: 480px) {
+    .card-4 {
+      height: 330px;
+      clip-path: polygon(
+      0% 0%,
+      0% 100%,
+      75% 100%,
+      100% 75%,
+      100% 98%,
+      100% 100%,
+      100% 0%
+    );
+    }
+    .moving-number,
+  .counter {
+    right: 45px;
+    left: unset;
+  }
+    .small-triangle {
+      left: 76%;
+      top: 75%;
+    }
+    .card-content-four {
+      padding: 30px 0px 0px 30px;
+    }
+    
+
+
+  }
+}
