@@ -25,13 +25,23 @@ function toggleText() {
   const container = document.querySelector('.p-under-message');
   const hiddenText = container.querySelectorAll('.hidden');
   const fadedText = container.querySelectorAll('.this-to-faded');
-  
+
   // Toggle the class on the main container
   container.classList.toggle('expanded');
 
   // Change button text
   const button = document.getElementById('toggle-button');
-  button.innerHTML = container.classList.contains('expanded') 
-                     ? 'إخفاء النص ▲' 
-                     : 'إستمر في القراءة ▼';
+
+  // Check the current language based on the body class
+  if (document.body.classList.contains('english')) {
+    // English text
+    button.innerHTML = container.classList.contains('expanded') 
+                       ? 'Hide text ▲' 
+                       : 'Continue reading ▼';
+  } else {
+    // Arabic text
+    button.innerHTML = container.classList.contains('expanded') 
+                       ? 'إخفاء النص ▲' 
+                       : 'إستمر في القراءة ▼';
+  }
 }

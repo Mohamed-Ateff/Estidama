@@ -216,7 +216,6 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 50px;
-
   gap: 10px;
 }
 
@@ -683,6 +682,187 @@
   z-index: 2;
 }
 /* six cards ends*/
+
+
+body[lang="en"] {
+
+  .bg-tree{
+    left: 635px;
+    transform: scaleX(-1);
+  }
+  .tree-man {
+    margin-right: 78px;
+  }
+  .color-orange {
+    margin-right: 20px;
+  }
+  #toggle-button {
+    translate: 130%;
+  }
+  
+  .first-card{
+    padding: 35px 10px 30px 80px;
+  }
+  .second-card {
+    padding: 55px 5px 30px 80px;
+  }
+  
+  .first-card p,
+  .second-card p {
+    position: relative;
+    padding: 0px 100px 60px 0px;
+  }
+  .first-card p:before {
+    left: -40px;
+  }
+  .second-card p:before {
+    left: -40px; 
+    top: 18%;
+}
+.second-card .content-first:nth-child(2) p {
+  padding-top: 0px;
+}
+.second-card .content-first:nth-child(3) p {
+  padding-top:0px;
+}
+.second-card .content-first:nth-child(4) p {
+  padding-top:5px;
+}
+.second-card .content-first:nth-child(5) p {
+  padding-top:5px;
+}
+.second-card .content-first:nth-child(1) p {
+  padding-top: 10px;
+}
+.first-card .content-first:nth-child(6) p {
+  padding-top: 15px;
+}
+.second-card .content-first:nth-child(6) p {
+  padding-top:15px;
+}
+
+
+.left-icon {
+  left: 387px;
+}
+
+.right-icon {
+  left: 0px;
+}
+#padding-right-text {
+  padding: 25px 0px 0px 90px;
+}
+.card-text {
+  padding: 25px 90px 0px 0px;
+}
+.logo-div{
+  display: flex;
+  flex-direction: row-reverse;
+  right: 71%;
+}
+.SixCard {
+  text-align: left;
+}
+.SixCard::before {
+  left: 0;
+}
+.six-cards .SixCard:nth-child(4) {
+  padding: 0px 60px 0px 120px;
+}
+.six-cards .SixCard:nth-child(6) {
+  padding: 0px 60px 0px 80px;
+}
+.seven-big-img img {
+  transform: scaleX(-1);
+}
+.seven-picWithText {
+  width: 490px;
+}
+.seven-picWithText p {
+  width: 390px;
+}
+.thr-picWithText {
+  width: 420px;
+}
+.thr-picWithText p {
+  width: 380px;
+}
+.thr-second-col .thr-item-col:nth-child(1) {
+  height: 180px;
+}
+.thr-big-img img {
+  transform: scaleX(-1);
+  translate: -20%;
+}
+.six-first-col .thr-item-col:nth-child(1) {
+  height: 90px;
+}
+
+.six-second-col .thr-item-col:nth-child(1) {
+  height: 90px;
+}
+.six-second-col .thr-item-col:nth-child(2) {
+  height: 105px;
+}
+.textOrg {
+  height: 140px;
+  transform: translate(55%, 5%);
+}
+.Six-cards .card-6:nth-child(9) p {
+  padding-bottom: 24px;
+}
+
+
+
+@media (max-width: 768px) {
+  .tree-man {
+    left: 130px;
+  }
+  .bg-tree {
+    left: 20px;
+  }
+  #toggle-button {
+    translate: 40%;
+  }
+  .left-icon {
+    left: 0px;
+  }
+  .card-text {
+    padding: 20px 0px 0px 60px;
+  }
+  #padding-right-text {
+    padding: 20px 0px 0px 60px;
+  }
+  .six-cards .SixCard:nth-child(4) {
+    padding: 0px 0px 0px 0px;
+  }
+  .six-cards .SixCard:nth-child(6) {
+    padding: 0px 50px 0px 50px;
+  }
+}
+@media (max-width: 480px) {
+  .card-text {
+    padding: 30px 80px 0px 0px;
+  }
+  #padding-right-text {
+    padding: 30px 55px 0px 0px;
+  }
+  .seven-big-img img {
+    translate: 30%;
+  }
+  .tree-man {
+    left: 20px;
+  }
+  .bg-tree{
+    left: -40px;
+  }
+  #toggle-button {
+    translate: 5%;
+  }
+}
+
+}
+
 
 @media (max-width: 1024px) {
   .tree-man {
