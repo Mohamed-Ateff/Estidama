@@ -841,208 +841,208 @@ body[lang="en"] {
     left: unset;
   }
 
-  .top-row .gov-square, .bottom-row .gov-square {
+  .top-row .gov-square,
+  .bottom-row .gov-square {
     left: 50%;
     right: unset;
-}
+  }
 
-  .line-1-1 {
-  top: 150%;
-  left: 41.5%;
-  right: unset;
-  width: 23%;
-}
+    .line-1-1 {
+        top: 143%;
+        left: 41%;
+        right: unset;
+        width: 23%;
+    }
 .line-1-2 {
-  transform: rotateZ(0);
-  top: 175%;
-  left: 51.5%;
-  right: unset;
-  width: 125%;
-}
-.line-1-3 {
-  top: 184%;
-  left: 172.5%;
-  right: unset;
-  width: 7%;
-}
+        top: 165%;
+        left: 52%;
+        right: unset;
+        width: 118%;
+    }
+    .line-1-3 {
+        top: 174%;
+        left: 164%;
+        right: unset;
+        width: 7%;
+    }
 
-.line-2-1 {
-  top: 128%;
-  left: 50%;
-  right: unset;
-  width: 5%;
-}
-.line-2-2 {
-  transform: rotateZ(0);
-  top: 135%;
-  left: 52.5%;
-  right: unset;
-  width: 38%;
-}
-.line-2-3 {
-  top: 164%;
-  left: 78.5%;
-  right: unset;
-  width: 23%;
-}
+  .line-2-1 {
+    top: 128%;
+    left: 50%;
+    right: unset;
+    width: 5%;
+  }
+    .line-2-2 {
+        transform: rotateZ(0);
+        top: 135%;
+        left: 52.5%;
+        right: unset;
+        width: 34%;
+    }
+    .line-2-3 {
+        top: 154%;
+        left: 77%;
+        right: unset;
+        width: 19%;
+    }
 
-.line-3-1 {
-  top: 128%;
-  right: 45%;
-  left: unset;
-  width: 5%;
-}
-.line-3-2 {
-  transform: rotateZ(0);
-  top: 135%;
-  right: 47%;
-  left:unset;
-  width: 49%;
-}
-.line-3-3 {
-  top: 164%;
-  right: 85.5%;
-  left:unset;
-  width: 23%;
-}
+  .line-3-1 {
+    top: 128%;
+    right: 45%;
+    left: unset;
+    width: 5%;
+  }
+  .line-3-2 {
+    transform: rotateZ(0);
+    top: 135%;
+    right: 47%;
+    left: unset;
+    width: 49%;
+  }
+  .line-3-3 {
+    top: 164%;
+    right: 85.5%;
+    left: unset;
+    width: 23%;
+  }
 
-.line-4-1 {
-  top: 149%;
-  right: 35.5%;
-  left:unset;
-  width: 23%;
-}
-.line-4-2 {
-  top: 174%;
-  right: 47%;
-  left:unset;
-  width: 136%;
-}
-.line-4-3 {
-  top: 184%;
-  right: 180.5%;
-  left:unset;
-  width: 5%;
-}
+    .line-4-1 {
+        top: 142%;
+        right: 36%;
+        left: unset;
+        width: 23%;
+    }
+    .line-4-2 {
+        top: 162%;
+        right: 48%;
+        left: unset;
+        width: 129%;
+    }
+    .line-4-3 {
+        top: 168%;
+        right: 175%;
+        left: unset;
+        width: 5%;
+    }
 
-.line-5-1 {
-  bottom: 140%;
-  left: 41%;
-  right: unset;
-  width: 23%;
-}
-.line-5-2 {
-  bottom: 163%;
-  left: 51.5%;
-  right: unset;
-  width: 125%;
-}
-.line-5-3 {
-  bottom: 166%;
-  left: 172.5%;
-  right: unset;
-  width: 7%;
-}
+      .line-5-1 {
+        bottom: 140%;
+        left: 41%;
+        right: unset;
+        width: 23%;
+    }
+      .line-5-2 {
+        bottom: 163%;
+        left: 53%;
+        right: unset;
+        width: 114%;
+    }
+     .line-5-3 {
+        bottom: 166%;
+        left: 164%;
+        right: unset;
+        width: 7%;
+    }
 
-.line-6-1 {
-  bottom: 124%;
-  left: 50%;
-  right: unset;
-  width: 5%;
-}
-.line-6-2 {
-  bottom: 129%;
-  left: 52.5%;
-  right: unset;
-  width: 38%;
-}
-.line-6-3 {
-  bottom: 150%;
-  left: 79%;
-  right: unset;
-  width: 23%;
-}
+  .line-6-1 {
+    bottom: 124%;
+    left: 50%;
+    right: unset;
+    width: 5%;
+  }
+    .line-6-2 {
+        bottom: 129%;
+        left: 52.5%;
+        right: unset;
+        width: 34%;
+    }
+    .line-6-3 {
+        bottom: 150%;
+        left: 75%;
+        right: unset;
+        width: 23%;
+    }
 
-.line-7-1 {
-  bottom: 124%;
-  right: 45%;
-  left:unset;
-  width: 5%;
-}
-.line-7-2 {
-  transform: rotateZ(0);
-  bottom: 129%;
-  right: 47%;
-  left:unset;
-  width: 49%;
-}
-.line-7-3 {
-  bottom: 152%;
-  right: 85.5%;
-  left:unset;
-  width: 23%;
-}
+  .line-7-1 {
+    bottom: 124%;
+    right: 45%;
+    left: unset;
+    width: 5%;
+  }
+  .line-7-2 {
+    transform: rotateZ(0);
+    bottom: 129%;
+    right: 47%;
+    left: unset;
+    width: 49%;
+  }
+  .line-7-3 {
+    bottom: 152%;
+    right: 85.5%;
+    left: unset;
+    width: 23%;
+  }
 
-.line-8-1 {
-  bottom: 140%;
-  right: 36%;
-  left:unset;
-  width: 23%;
-}
-.line-8-2 {
-  transform: rotateZ(0);
-  bottom: 164%;
-  right: 47%;
-  left:unset;
-  width: 136%;
-}
-.line-8-3 {
-  bottom: 170%;
-  right: 180.5%;
-  left:unset;
-  width: 5%;
-}
-.gov-square-center-1 {
-  top: -30px;
-  left: 34%;
-  right: unset;
-}
-.gov-square-center-2 {
-  top: -30px;
-  left: 43%;
-  right: unset;
-}
-.gov-square-center-3 {
-  top: -30px;
-  left: 51%;
-  right: unset;
-}
-.gov-square-center-4 {
-  top: -30px;
-  left: 60%;
-  right: unset;
-}
+  .line-8-1 {
+    bottom: 140%;
+    right: 36%;
+    left: unset;
+    width: 23%;
+  }
+    .line-8-2 {
+        transform: rotateZ(0);
+        bottom: 164%;
+        right: 47%;
+        left: unset;
+        width: 130%;
+    }
+    .line-8-3 {
+        bottom: 170%;
+        right: 175%;
+        left: unset;
+        width: 5%;
+    }
+  .gov-square-center-1 {
+    top: -30px;
+    left: 34%;
+    right: unset;
+  }
+  .gov-square-center-2 {
+    top: -30px;
+    left: 43%;
+    right: unset;
+  }
+  .gov-square-center-3 {
+    top: -30px;
+    left: 51%;
+    right: unset;
+  }
+  .gov-square-center-4 {
+    top: -30px;
+    left: 60%;
+    right: unset;
+  }
 
-.gov-square-center-5 {
-  bottom: -30px;
-  left: 34%;
-  right: unset;
-}
-.gov-square-center-6 {
-  bottom: -30px;
-  left: 43%;
-  right: unset;
-}
-.gov-square-center-7 {
-  bottom: -30px;
-  left: 51%;
-  right: unset;
-}
-.gov-square-center-8 {
-  bottom: -30px;
-  left: 60%;
-  right: unset;
-}
+  .gov-square-center-5 {
+    bottom: -30px;
+    left: 34%;
+    right: unset;
+  }
+  .gov-square-center-6 {
+    bottom: -30px;
+    left: 43%;
+    right: unset;
+  }
+  .gov-square-center-7 {
+    bottom: -30px;
+    left: 51%;
+    right: unset;
+  }
+  .gov-square-center-8 {
+    bottom: -30px;
+    left: 60%;
+    right: unset;
+  }
 
   .card h3,
   .card p {
@@ -1059,5 +1059,156 @@ body[lang="en"] {
   }
   .footnote {
     text-align: right;
+  }
+
+  @media (max-width: 768px) {
+    /* .top-row .gov-square {
+      top:110%
+    } */
+         .line-1-1 {
+            top: 122%;
+            left: 38%;
+            right: unset;
+            width: 34%;
+        }
+    
+          .line-1-2 {
+            top: 128%;
+            left: 54.5%;
+            right: unset;
+            width: 111%;
+        }
+          .line-1-3 {
+            top: 130%;
+            left: 161.5%;
+            right: unset;
+            width: 7%;
+        }
+    .line-2-1 {
+      top: 121%;
+      left: 48%;
+      right: unset;
+      width: 16%;
+    }
+         .line-2-2 {
+            top: 124%;
+            left: 55%;
+            right: unset;
+            width: 37%;
+        }
+    .line-2-3 {
+      top: 131%;
+      left: 75.5%;
+      right: unset;
+      width: 22%;
+    }
+    .line-3-1 {
+      top: 118%;
+      right: 42%;
+      left:unset;
+      width: 5%;
+    }
+    .line-3-2 {
+      top: 121%;
+      right: 44%;
+      left:unset;
+      width: 54%;
+    }
+    .line-3-3 {
+      top: 131%;
+      right: 85.5%;
+      left:unset;
+      width: 23%;
+    }
+        .line-4-1 {
+            top: 122%;
+            right: 30%;
+            left: unset;
+            width: 29%;
+        }
+        .line-4-2 {
+            top: 129%;
+            right: 40%;
+            left: unset;
+            width: 129%;
+        }
+        .line-4-3 {
+            top: 130%;
+            right: 172.5%;
+            left: unset;
+            width: 5%;
+        }
+        .line-5-1 {
+            bottom: 121%;
+            left: 38%;
+            right: unset;
+            width: 34%;
+        }
+        .line-5-2 {
+            bottom: 130%;
+            left: 54.5%;
+            right: unset;
+            width: 111%;
+        }
+        .line-5-3 {
+            bottom: 133%;
+            left: 161.5%;
+            right: unset;
+            width: 7%;
+        }
+    .line-6-1 {
+      bottom: 116%;
+      left: 48%;
+      right: unset;
+      width: 16%;
+    }
+        .line-6-2 {
+            bottom: 120%;
+            left: 58%;
+            right: unset;
+            width: 37%;
+        }
+        .line-6-3 {
+            bottom: 129%;
+            left: 75.5%;
+            right: unset;
+            width: 22%;
+        }
+    .line-7-1 {
+      bottom: 118%;
+      right: 42%;
+      left:unset;
+      width: 5%;
+    }
+    .line-7-2 {
+      bottom: 120%;
+      right: 44%;
+      left:unset;
+      width: 54%;
+    }
+    .line-7-3 {
+      bottom: 127%;
+      right: 85.5%;
+      left:unset;
+      width: 23%;
+    }
+        .line-8-1 {
+            bottom: 119%;
+            right: 30%;
+            left: unset;
+            width: 29%;
+        }
+        .line-8-2 {
+            bottom: 128%;
+            right: 44%;
+            left: unset;
+            width: 129%;
+        }
+    .line-8-3 {
+      bottom: 131%;
+      right: 172.5%;
+      left:unset;
+      width: 5%;
+    }
   }
 }
