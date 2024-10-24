@@ -505,6 +505,186 @@
 }
 /* last-section three cards with text ends*/
 
+body[lang="en"] {
+
+  .logo-div{
+    display: flex;
+    flex-direction: row-reverse;
+    right: 71%;
+  }
+  .one-card {
+    height: 200px; /* adjusted this men el adeem */
+  }
+  .content-big {
+    text-align: left;
+    transform: translate(15%, -10%);
+  }
+  .four-cards div:nth-child(2) {
+    background: radial-gradient(
+      circle at bottom right,
+      transparent,
+      transparent 180px,
+      #ffffff 30px,
+      #ffffff
+    );
+    text-align: left;
+    padding: 50px 250px 30px 100px;
+  }
+  .four-cards div:nth-child(3) {
+    justify-content: flex-start;
+    background: radial-gradient(
+      circle at bottom left,
+      transparent,
+      transparent 180px,
+      #ffffff 30px,
+      #ffffff
+    );
+    text-align: right;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px 100px 30px 180px;
+  }
+  .four-cards div:nth-child(4) {
+    background: radial-gradient(
+      circle at top right,
+      transparent,
+      transparent 180px,
+      #ffffff 12px,
+      #ffffff
+    );
+    text-align: left;
+    padding: 50px 300px 30px 100px;
+  }
+  .four-cards div:nth-child(5) {
+    background: radial-gradient(
+      circle at top left,
+      transparent,
+      transparent 180px,
+      #ffffff 12px,
+      #ffffff
+    );
+    text-align: right;
+    padding: 50px 100px 30px 180px;
+  }
+  .three-card {
+    height: 460px; /* adjusted this men el adeem */
+  }
+
+
+@media (max-width: 768px){
+  .img-col {
+    transform: translateX(50%);
+  }
+  
+  .four-cards div:nth-child(2) {
+    background: radial-gradient(
+      circle at bottom right,
+      transparent,
+      transparent 120px,
+      #ffffff 30px,
+      #ffffff
+    );}
+    .four-cards div:nth-child(3) {
+      background: radial-gradient(
+        circle at bottom left,
+        transparent,
+        transparent 120px,
+        #ffffff 30px,
+        #ffffff
+      );}
+      .four-cards div:nth-child(4) {
+        background: radial-gradient(
+          circle at top right,
+          transparent,
+          transparent 120px,
+          #ffffff 12px,
+          #ffffff
+        );}
+        .four-cards div:nth-child(5) {
+          background: radial-gradient(
+            circle at top left,
+            transparent,
+            transparent 120px,
+            #ffffff 12px,
+            #ffffff
+          );}
+
+.four-cards div:nth-child(2),
+.four-cards div:nth-child(4) {
+  padding: 30px 120px 20px 20px;
+}
+.four-cards div:nth-child(3),
+.four-cards div:nth-child(5) {
+  padding: 30px 20px 20px 120px;
+}
+.three-card {
+  height: 300px; /* adjusted this men el adeem */
+}
+
+}
+
+@media (max-width: 480px){
+  .picWithText p {
+    padding: 10px 90px 10px 0px;
+  }
+  .item-col {
+    height: 300px;
+  }
+  .three-card {
+    height: 560px; /* adjusted this men el adeem */
+  }
+  .circle-green {
+    width: 130px;
+    height: 130px;
+    
+  }
+  .four-cards div:nth-child(2) {
+    background: radial-gradient(
+      circle at bottom right,
+      transparent,
+      transparent 80px,
+      #ffffff 30px,
+      #ffffff
+    );}
+    .four-cards div:nth-child(3) {
+      background: radial-gradient(
+        circle at bottom left,
+        transparent,
+        transparent 80px,
+        #ffffff 30px,
+        #ffffff
+      );}
+      .four-cards div:nth-child(4) {
+        background: radial-gradient(
+          circle at top right,
+          transparent,
+          transparent 80px,
+          #ffffff 12px,
+          #ffffff
+        );}
+        .four-cards div:nth-child(5) {
+          background: radial-gradient(
+            circle at top left,
+            transparent,
+            transparent 80px,
+            #ffffff 12px,
+            #ffffff
+          );}
+  .four-cards div:nth-child(2),
+.four-cards div:nth-child(4) {
+  padding: 30px 50px 20px 20px;
+}
+.four-cards div:nth-child(3),
+.four-cards div:nth-child(5) {
+  padding: 30px 20px 20px 50px;
+}
+}
+
+
+}
+
+
+
 @media (max-width: 1024px){
   .one-card {
     width: 100%;
