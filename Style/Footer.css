@@ -67,6 +67,18 @@ footer .left-footer {
 footer .left-footer img {
   width: 250px;
 }
+body[lang="en"] {
+  footer .right-footer {
+    justify-content: left;
+  }
+  footer .right-footer .icon-and-text-right-footer {
+    justify-content: left;
+  }
+  footer .right-footer .icon-and-text-right-footer img {
+    margin-right: 15px;
+    margin-left:0px ;
+  }
+}
 @media screen and (max-width: 768px) {
   footer .container {
     flex-direction: column;
