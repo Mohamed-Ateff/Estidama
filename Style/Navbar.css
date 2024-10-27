@@ -44,6 +44,7 @@
 .y_nav_links {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 40%;
 }
 
@@ -170,4 +171,10 @@
 .toggle .line3 {
   background-color: black;
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+body[lang="en"] {
+  .y_nav_links .active::before {
+    bottom: -220%;
+  }
 }
