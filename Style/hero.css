@@ -70,9 +70,16 @@
     bottom: -40px;
     right: 0;
     width: 100%;
+   
+  }
+  .img-and-title-final {
+    top: 5px;
   }
   .img-and-title-for-hero {
     position: relative;
+    z-index: 99;
+    top: 12px;
+    
   }
   .img-and-title-for-hero h1 {
     right: 3%;
@@ -80,8 +87,25 @@
     color: white;
     font-weight: 700 !important;
     font-size: 20px;
-    z-index: 1;
+    z-index: 9;
     top: -115px;
+  }
+  .img-and-title-final img {
+    height: 30px;
+  }
+}
+@media screen and (max-width:480px){
+  .img-and-title-final {
+    top: 23px;
+    
+  }
+  .img-and-title-for-hero {
+    position: relative;
+    z-index: 99;
+    top: -35px;
+  }
+  .img-and-title-final img {
+    height: 20px;
   }
 }
 
