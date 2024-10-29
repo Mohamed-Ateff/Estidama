@@ -90,6 +90,11 @@ body[lang="en"] {
     -webkit-transform: scaleX(-1); /* to reverse arrow */
     transform: scaleX(-1);
   }
+  .img-and-title-final img {
+    transform: scaleX(-1);
+    margin-left: 0px;
+    margin-right: 80px;
+  }
   .img-and-title-for-hero h1 {
     bottom: 100px !important;
     left: 3%;
