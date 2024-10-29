@@ -78,6 +78,14 @@ body[lang="en"] {
     margin-right: 15px;
     margin-left:0px ;
   }
+  footer .left-footer {
+    justify-content: right;
+  }
+  @media screen and (max-width: 768px) {
+    footer .left-footer {
+      justify-content: left;
+    }
+  }
 }
 @media screen and (max-width: 768px) {
   footer .container {
