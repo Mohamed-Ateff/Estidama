@@ -107,6 +107,9 @@
   .img-and-title-final img {
     height: 20px;
   }
+  .hero .bg-for-hero {
+    height: 120%;
+  }
 }
 
 body[lang="en"] {
