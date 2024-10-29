@@ -174,7 +174,7 @@
 }
 
 body[lang="en"] {
-  .y_nav_links .active::before {
+  #overview-active::before {
     bottom: -220%;
   }
 }

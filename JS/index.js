@@ -18,7 +18,6 @@ const navSlide = () => {
     burger.classList.toggle("toggle");
   });
 };
-
 navSlide();
 
 function toggleText() {
